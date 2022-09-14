@@ -1,0 +1,58 @@
+@import "./index.scss";
+
+.case__container {
+    display: flex;
+    width:90%;
+}
+
+.caseImage {
+    display: flex;
+    width:90%;
+    height:500px;
+    background-color: $light-text;
+    margin: 0 auto;
+}
+
+.caseDescription {
+    display: grid;
+    grid-template-columns: 40% 20% 20% 20%;
+    width:90%;
+    margin: 0 auto;
+    margin-bottom: 150px;
+
+
+    &__principal {
+    &__title {
+    font-size: 3.2rem;
+    line-height: 3.6rem;
+    color: $dark--text;
+    font-weight: bold;
+    margin-bottom: 0;
+    margin-top: 1.4rem;
+    }
+    &__text {
+        font-size: 1.8rem;
+        line-height: 2.2rem;
+        color: $medium--text;
+        font-weight: normal;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+}
+    &__details {
+        &__title {
+            font-weight:bold;
+            color: $medium--text;
+            font-size:1.4rem;
+            margin-top: 1.4rem;
+            margin-bottom: 0;
+            line-height: 3.6rem;
+
+        }
+        &__text {
+            color: $dark--text;
+            font-size:1.6rem;
+            margin-top: 0;
+        }
+    }
+}

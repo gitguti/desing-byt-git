@@ -1,0 +1,81 @@
+@import '../../styles/index.scss';
+
+.case__container {
+    display: flex;
+    width:80%;
+}
+
+.caseImage {
+    display: flex;
+    width:90%;
+    height:300px;
+    background-color: #F7FFFF;
+    padding: 30px 0;
+    margin: 0 auto;
+    border-radius: 50px;
+
+    img {
+        width:100%;
+        height:100%;
+        object-fit: contain;
+    }
+
+    @include lg {
+        width:80%;
+        height:600px;
+    }
+}
+
+.caseDescription {
+    display: grid;
+    grid-template-rows: repeat(4,auto);
+    row-gap: 5px;
+    column-gap: 10px;
+    width:90%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    margin-top:5px;
+    @include lg {
+    grid-template-columns: 40% 20% 20% 20%;
+    margin-bottom: 150px;
+    margin-top:20px;
+    width:80%;
+    }
+
+
+    &__principal {
+    &__title {
+    font-size: 2.8rem;
+    line-height: 3.6rem;
+    color: $dark--text;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    margin-top: 1.4rem;
+    }
+    &__text {
+        font-size: 1.6rem;
+        line-height: 3rem;
+        color: $medium--text;
+        font-weight: normal;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+}
+    &__details {
+        &__title {
+            font-weight:bold;
+            color: $dark--text;
+            font-size:1.8rem;
+            margin-top: 1.4rem;
+            margin-bottom: 1rem;
+            line-height: 3.6rem;
+
+        }
+        &__text {
+            color: $medium--text;
+            font-size:1.6rem;
+            line-height: 3rem;
+            margin-top: 0;
+        }
+    }
+}

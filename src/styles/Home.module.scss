@@ -1,0 +1,178 @@
+@import './index.scss';
+
+.main__container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width:90%;
+  margin: 0 auto;
+
+  @include md {
+   flex-direction: row;
+  }
+
+  &__left {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-top: 300px;
+    margin-bottom: 0px;
+    order: 2;
+    @include md {
+      margin-bottom: 100px;
+      margin-top: 0;
+      order:1;
+     }
+
+    &__title {
+      font-weight: bold;
+      color: $dark--text;
+      font-size: 3rem;
+      margin-top: 0px;
+      margin-bottom: 0px;
+      @include md {
+        font-size: 4.4rem;
+       }
+    }
+
+    &__subtext {
+      font-weight: normal;
+      color: $medium--text;
+      font-size: 2rem;
+      margin-top: 0px;
+      margin-bottom: 0px;
+      @include md {
+        font-size: 3rem;
+      }
+    }
+
+    &__text {
+      font-weight: normal;
+      color: $medium--text;
+      font-size: 1.6rem;
+      width:100%;
+      line-height:2.4rem;
+      @include md {
+        width:70%;
+      }
+    }
+  }
+
+}
+
+.case__container {
+  // margin: 400px auto;
+
+  &__title {
+    color: $dark--text;
+    text-align: center;
+    font-size:2.8rem;
+    line-height:3.2rem;
+    font-weight: normal;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    @include lg {
+      margin-top: 200px;
+
+    }
+  }
+}
+
+.button__light {
+padding: 1rem 1rem .8125rem;
+border-radius: .625rem;
+background-color: #020202;
+-webkit-transition: background-color .1s cubic-bezier(.47, 0, .745, .715),-webkit-transform .1s;
+transition: transform .1s,background-color .1s cubic-bezier(.47, 0, .745, .715),-webkit-transform .1s;
+font-size: 1.4rem;
+line-height: 150%;
+font-weight: 700;
+color: white;
+display: flex;
+width:90%;
+justify-content:center;
+@include md {
+  width:70%;
+  font-size: 1.6rem;
+
+}
+}
+
+@mixin backlight($x, $y, $spread, $size, $colorA, $colorB, $duration) {
+  &:after {
+    position: absolute;
+    content: "";
+    z-index: -1;
+    height: 60vw;
+    width: 60vw;
+    top: 80%;
+    right:-80%;
+    // transform: scale($size);
+    -webkit-filter: blur($spread);
+    -moz-filter: blur($spread);
+    -ms-filter: blur($spread);
+    filter: blur($spread);
+    background: linear-gradient(270deg, $colorA, $colorB);
+    background-size: 200% 200%;
+    animation: animateGlow $duration ease infinite;
+    border-radius: 100%;
+    overflow-x: hidden;
+    @include md {
+      top: 40%;
+      right:-8%;
+      height: 40vw;
+      width: 40vw;
+    }
+    
+    @keyframes animateGlow {
+      0% {
+        background-position: 0% 50%;
+        transform:translate3d(#{randomNum(5%, 30%)}, #{randomNum(5%, 100%)}, #{randomNum(5%, 100%)}) scale3d(#{randomNum(5%, 100%)}, #{randomNum(5%, 100%)}, #{randomNum(5%, 100%)}) rotateX(#{randomNum(5%, 100%)}) ;
+      }
+      50% {
+        background-position: 100% 50%;
+        transform:translate3d(#{randomNum(50%, 60%)}, #{randomNum(5%, 100%)}, #{randomNum(5%, 100%)}) scale3d(#{randomNum(5%, 100%)}, #{randomNum(5%, 100%)}, #{randomNum(5%, 100%)}) rotateX(#{randomNum(5%, 100%)}) ;
+      }
+      100% {
+        background-position: 0% 50%;
+        transform:translate3d(#{randomNum(5%, 30%)}, #{randomNum(5%, 100%)}, #{randomNum(5%, 100%)}) scale3d(#{randomNum(5%, 100%)}, #{randomNum(5%, 100%)}, #{randomNum(5%, 100%)}) rotateX(#{randomNum(5%, 100%)}) ;
+      }
+    }
+  }
+}
+
+.effect {
+  position: relative;
+  width: 50vw;
+  height: 30vw;
+  line-height: 30vw;
+  text-align: center;
+  display: flex;
+  order: 1;
+  @include md {
+    order:2;
+   }
+  @include backlight(0, 5vw, 5vw, 0.75, #0fffc1, #7e0fff, 10s);
+
+}
+@function randomNum($min, $max) {
+  $rand: random();
+  $randomNum: $min + floor($rand * (($max - $min) + 1));
+
+  @return $randomNum;
+}
+
+.commingSoon {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom:50px;
+  color: $dark--text;
+  margin-left: auto;
+  margin-right: auto;
+  width:90%;
+
+  @include lg {
+    font-size: 4rem;
+    margin-bottom:150px;
+  }
+}

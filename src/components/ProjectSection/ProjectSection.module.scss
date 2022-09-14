@@ -1,0 +1,82 @@
+@import '../../styles/index.scss';
+
+.projectSection__container {
+    display: flex;
+    flex-direction: column;
+    width:90%;
+    margin: 20px auto;
+    @include lg {
+        width:60%;
+    }
+
+    &__badge {
+        color: $dark--text;
+        font-weight: bold;
+        font-size:1.4rem;
+        font-variant: small-caps;
+        letter-spacing: 0.2em;
+        margin-top:0px;
+        margin-bottom: 00px;
+    }
+
+    &__title {
+        font-size: 2.8rem;
+        line-height:3.2rem;
+        color:$dark--text;
+        margin-bottom: 0px;
+        margin-top: 15px;
+        @include md {
+        font-size: 4.2rem;
+        line-height:4.6rem;
+        }
+    }
+
+    &__text {
+        font-size: 1.6rem;
+        line-height:4rem;
+        color: $medium--text;
+        text-align:justify;
+        width:95%;
+    }
+
+    &__li {
+        font-size: 1.6rem;
+        line-height:3rem;
+        color: $medium--text;
+        text-align:justify;
+
+    }
+}
+
+.image {
+    display: flex;
+    width:90%;
+    height:auto;
+    background-color: white;
+    margin: 0 auto;
+    &__desktop {
+        display: none;
+    }
+
+    @include lg {
+    height:auto;
+    width:90%;
+    margin-bottom: 50px;
+    &__phone {
+        display: none;
+    }
+    &__desktop {
+        display: block;
+    }
+    }
+
+    img {
+        width: 100%;
+        object-fit: cover;
+        @include lg {
+            height:600px;
+            object-fit: contain;
+        } 
+    }
+
+}

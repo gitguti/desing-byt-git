@@ -1,0 +1,51 @@
+@import '../../styles/index.scss';
+
+.side__bar {
+    // background: rgba(255, 255, 255, 0.1);
+    background-color: black;
+    backdrop-filter: blur(15px);
+    width: 60%;
+    max-width:290px;
+    height:100vh;
+    position:fixed;
+    top: 0;
+    right: 0;
+    overflow-y: auto;
+    animation-name: slide;
+    animation-duration:1s;
+    animation-timing-function: ease-in-out;
+    @keyframes slide {
+        0% {
+            opacity: 0;
+            width: 0;
+        }
+        100% {
+            opacity: 100%;
+            width:60%;
+        }
+    }
+}
+
+.side__bar .menu {
+    width: 100%;
+    margin-top:80px;
+}
+
+.side__bar .menu .menu__item {
+    position: relative;
+    cursor: pointer;
+}
+
+.side__bar .menu .menu__item {
+    color: white;
+    font-size: 1.6rem;
+    text-decoration: none;
+    display: block;
+    padding:15px 30px;
+    line-height:6rem;
+}
+
+.side__bar .menu .menu__item a:hover {
+    color:#8621F8;
+    transition: 0.3s ease;
+}

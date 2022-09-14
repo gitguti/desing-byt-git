@@ -1,22 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import './styles/globals.scss'
+import {HashRouter, Route, Routes} from 'react-router-dom';
+import About from './pages/About.jsx';
+import CryptoBaddies from './pages/projects/CryptoBaddies.jsx';
+import Bloombot from './pages/projects/Bloombot';
+import CryptoOfertas from './pages/projects/CryptoOfertas';
+import Home from './pages/Home';
+
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <HashRouter>
+        <Routes>
+        <Route index element={<Home />}/>
+        <Route path='/About' element={<About />}/> 
+        <Route path='projects/cryptoBaddies' element={<CryptoBaddies />}/>
+        <Route path='projects/Bloombot' element={<Bloombot />}/>  
+        <Route path='projects/CryptoOfertas' element={<CryptoOfertas />}/> 
+        </Routes>
+        </HashRouter>
       </header>
     </div>
   );
