@@ -2,6 +2,8 @@ import styles from '../styles/About.module.scss';
 import Footer from '../components/Footer/Footer';
 import Navbar from '../components/Navbar/Navbar';
 import RRSS from '../components/RRSS/RRSS';
+import { Link } from "react-router-dom";
+
 
 
 export default function About() {
@@ -23,6 +25,20 @@ export default function About() {
                 </p>
                 <p className={styles.text__content}>Now i have a new challenge, it`s build solutions on web3, i think that a way to democratize its usage needs to teach how to use this technology properly and make this solutions users centered.</p>
                 <p className={styles.text__content}> I <bold>love</bold> to code artistic frontend, create with no code platforms (bubble, glide) and the ethereum project and all the potential its brings to solve problems.</p>
+                <div className={styles.contact}>
+        <h3 className={styles.commingSoon}>
+          {" "}
+          Do you want to tell me about you? <span> or just say Hey!</span>😁
+        </h3>
+        <a
+          href="mailto:gitmelbco@gmail.com"
+          target="_blank"
+          rel="noreferrer"
+          className={styles.button__cta}
+        >
+          Keep in touch
+        </a>
+      </div>
             </div>
         </div>
         <Footer/>

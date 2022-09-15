@@ -8,32 +8,36 @@ export default function RRSS(props) {
         <>
         <div className={styles.wrapper}>
          <div className={styles.button}>
-         <Link href="http://github.com/gitguti">
+         <a href="http://github.com/gitguti"  target="_blank"
+          rel="noreferrer">
             <div className={styles.icon}>
               <FiGithub size={20} color={fillColor} fill={fillColor} />
             </div>
-            </Link>
+            </a>
          </div>
          <div className={styles.button}>
-         <Link href="mailto:gitmelbco@gmail.com ">
+         <a href="mailto:gitmelbco@gmail.com"  target="_blank"
+          rel="noreferrer">
          <div className={styles.icon}>
             <FiAtSign size={24} color={fillColor}  />
             </div>
-         </Link>
+         </a>
          </div>
          <div className={styles.button}>
-         <Link href="https://www.linkedin.com/in/gitguti/">
+         <a href="https://www.linkedin.com/in/gitguti/"  target="_blank"
+          rel="noreferrer">
          <div className={styles.icon}>
          <FiLinkedin size={20}  color={fillColor} fill={fillColor} />
             </div>
-         </Link>
+         </a>
          </div>
          <div className={styles.button}>
-         <Link href="https://www.linkedin.com/in/gitguti/">
+         <a href="https://www.linkedin.com/in/gitguti/"  target="_blank"
+          rel="noreferrer">
          <div className={styles.icon}>
          <FiFile size={20}  color={fillColor} fill={fillColor} />
          </div>
-         </Link>
+         </a>
          </div>
       </div>
         </>

@@ -5,6 +5,7 @@ import CryptoBaddies from './pages/projects/CryptoBaddies.jsx';
 import Bloombot from './pages/projects/Bloombot';
 import CryptoOfertas from './pages/projects/CryptoOfertas';
 import Home from './pages/Home';
+import ScrollToTop from './components/ScrollToTop';
 
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <HashRouter>
+        <ScrollToTop />
         <Routes>
         <Route index element={<Home />}/>
         <Route path='/About' element={<About />}/> 
