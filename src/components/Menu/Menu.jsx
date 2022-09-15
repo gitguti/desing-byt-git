@@ -6,7 +6,10 @@ export default function Menu(props) {
         <>
         <div className={styles.side__bar}>
         <div className={styles.menu}>
-            <div className={styles.menu__item}><Link to="/">Home</Link></div>
+            <div className={styles.menu__item}><Link to={{
+    pathname: "/",
+    state: false
+  }} >Home</Link></div>
             <div className={styles.menu__item}><Link to="/projects/CryptoOfertas">CryptoOfertas</Link></div>
             <div className={styles.menu__item}><Link to="/projects/CryptoBaddies">CryptoBaddies</Link></div>
             <div className={styles.menu__item}><Link to="/projects/Bloombot">Bloombot</Link></div>
