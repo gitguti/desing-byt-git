@@ -1358,10 +1358,6 @@
     istanbul-lib-report "^3.0.0"
     istanbul-lib-source-maps "^4.0.0"
     istanbul-reports "^3.1.3"
-    jest-haste-map "^27.5.1"
-    jest-resolve "^27.5.1"
-    jest-util "^27.5.1"
-    jest-worker "^27.5.1"
     slash "^3.0.0"
     source-map "^0.6.0"
     string-length "^4.0.1"
@@ -3041,8 +3037,6 @@ chokidar@^3.4.2, chokidar@^3.5.3:
     is-glob "~4.0.1"
     normalize-path "~3.0.0"
     readdirp "~3.6.0"
-  optionalDependencies:
-    fsevents "~2.3.2"
 
 chownr@^2.0.0:
   version "2.0.0"
@@ -3351,7 +3345,6 @@ css-minimizer-webpack-plugin@^3.2.0:
   integrity sha512-1u6D71zeIfgngN2XNRJefc/hY7Ybsxd74Jm4qngIXyUEk7fss3VUzuHxLAq/R8NAba4QU9OUSaMZlbpRc7bM4Q==
   dependencies:
     cssnano "^5.0.6"
-    jest-worker "^27.0.2"
     postcss "^8.3.5"
     schema-utils "^4.0.0"
     serialize-javascript "^6.0.0"
@@ -4135,7 +4128,6 @@ eslint-webpack-plugin@^3.1.1:
   integrity sha512-avrKcGncpPbPSUHX6B3stNGzkKFto3eL+DKM4+VyMrVnhPc3vRczVlCq3uhuFOdRvDHTVXuzwk1ZKUrqDQHQ9w==
   dependencies:
     "@types/eslint" "^7.29.0 || ^8.4.1"
-    jest-worker "^28.0.2"
     micromatch "^4.0.5"
     normalize-path "^3.0.0"
     schema-utils "^4.0.0"
@@ -4566,11 +4558,6 @@ fs.realpath@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/fs.realpath/-/fs.realpath-1.0.0.tgz#1504ad2523158caa40db4a2787cb01411994ea4f"
   integrity sha512-OO0pH2lK6a0hZnAdau5ItzHPI6pUlvI7jMVnxUQRtw4owF2wk8lOSabtGDCTP4Ggrg2MbGnWO9X8K1t4+fGMDw==
-
-fsevents@^2.3.2, fsevents@~2.3.2:
-  version "2.3.2"
-  resolved "https://registry.yarnpkg.com/fsevents/-/fsevents-2.3.2.tgz#8a526f78b8fdf4623b709e0b975c52c24c02fd1a"
-  integrity sha512-xiqMQR4xAeHTuB9uWm+fFRcIOgKBMiOBP+eXiyT7jsgVCq1bkVygt00oASowB7EdtpOHaaPgKt812P9ab+DDKA==
 
 function-bind@^1.1.1:
   version "1.1.1"
@@ -5570,11 +5557,8 @@ jest-haste-map@^27.5.1:
     jest-regex-util "^27.5.1"
     jest-serializer "^27.5.1"
     jest-util "^27.5.1"
-    jest-worker "^27.5.1"
     micromatch "^4.0.4"
     walker "^1.0.7"
-  optionalDependencies:
-    fsevents "^2.3.2"
 
 jest-jasmine2@^27.5.1:
   version "27.5.1"
@@ -5718,7 +5702,6 @@ jest-runner@^27.5.1:
     jest-resolve "^27.5.1"
     jest-runtime "^27.5.1"
     jest-util "^27.5.1"
-    jest-worker "^27.5.1"
     source-map-support "^0.5.6"
     throat "^6.0.1"
 
@@ -5862,32 +5845,6 @@ jest-watcher@^28.0.0:
     jest-util "^28.1.3"
     string-length "^4.0.1"
 
-jest-worker@^26.2.1:
-  version "26.6.2"
-  resolved "https://registry.yarnpkg.com/jest-worker/-/jest-worker-26.6.2.tgz#7f72cbc4d643c365e27b9fd775f9d0eaa9c7a8ed"
-  integrity sha512-KWYVV1c4i+jbMpaBC+U++4Va0cp8OisU185o73T1vo99hqi7w8tSJfUXYswwqqrjzwxa6KpRK54WhPvwf5w6PQ==
-  dependencies:
-    "@types/node" "*"
-    merge-stream "^2.0.0"
-    supports-color "^7.0.0"
-
-jest-worker@^27.0.2, jest-worker@^27.4.5, jest-worker@^27.5.1:
-  version "27.5.1"
-  resolved "https://registry.yarnpkg.com/jest-worker/-/jest-worker-27.5.1.tgz#8d146f0900e8973b106b6f73cc1e9a8cb86f8db0"
-  integrity sha512-7vuh85V5cdDofPyxn58nrPjBktZo0u9x1g8WtjQol+jZDaE+fhN+cIvTj11GndBnMnyfrUOG1sZQxCdjKh+DKg==
-  dependencies:
-    "@types/node" "*"
-    merge-stream "^2.0.0"
-    supports-color "^8.0.0"
-
-jest-worker@^28.0.2:
-  version "28.1.3"
-  resolved "https://registry.yarnpkg.com/jest-worker/-/jest-worker-28.1.3.tgz#7e3c4ce3fa23d1bb6accb169e7f396f98ed4bb98"
-  integrity sha512-CqRA220YV/6jCo8VWvAt1KKx6eek1VIHMPeLEbpcfSfkEeWyBNppynM/o6q+Wmw+sOhos2ml34wZbSX3G13//g==
-  dependencies:
-    "@types/node" "*"
-    merge-stream "^2.0.0"
-    supports-color "^8.0.0"
 
 jest@^27.4.3:
   version "27.5.1"
@@ -7851,8 +7808,6 @@ react-scripts@5.0.1:
     webpack-dev-server "^4.6.0"
     webpack-manifest-plugin "^4.0.2"
     workbox-webpack-plugin "^6.4.1"
-  optionalDependencies:
-    fsevents "^2.3.2"
 
 react@^18.2.0:
   version "18.2.0"
@@ -8134,7 +8089,6 @@ rollup-plugin-terser@^7.0.0:
   integrity sha512-w3iIaU4OxcF52UUXiZNsNeuXIMDvFrr+ZXK6bFZ0Q60qyVfq4uLptoS4bbq3paG3x216eQllFZX7zt6TIImguQ==
   dependencies:
     "@babel/code-frame" "^7.10.4"
-    jest-worker "^26.2.1"
     serialize-javascript "^4.0.0"
     terser "^5.0.0"
 
@@ -8142,8 +8096,6 @@ rollup@^2.43.1:
   version "2.79.0"
   resolved "https://registry.yarnpkg.com/rollup/-/rollup-2.79.0.tgz#9177992c9f09eb58c5e56cbfa641607a12b57ce2"
   integrity sha512-x4KsrCgwQ7ZJPcFA/SUu6QVcYlO7uRLfLAy0DSA4NS2eG8japdbpM50ToH7z4iObodRYOJ0soneF0iaQRJ6zhA==
-  optionalDependencies:
-    fsevents "~2.3.2"
 
 run-parallel@^1.1.9:
   version "1.2.0"
@@ -8889,7 +8841,6 @@ terser-webpack-plugin@^5.1.3, terser-webpack-plugin@^5.2.5:
   integrity sha512-kfLFk+PoLUQIbLmB1+PZDMRSZS99Mp+/MHqDNmMA6tOItzRt+Npe3E+fsMs5mfcM0wCtrrdU387UnV+vnSffXQ==
   dependencies:
     "@jridgewell/trace-mapping" "^0.3.14"
-    jest-worker "^27.4.5"
     schema-utils "^3.1.1"
     serialize-javascript "^6.0.0"
     terser "^5.14.1"
