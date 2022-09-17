@@ -19,7 +19,7 @@ export default function About() {
                 <p className={styles.text__content}>I enjoy the process of really solving the problem, the research, POV, guerrilla testing, surveys, and the interviews. All this connects with my six sense of understand not just what the users says, otherwise read between lines</p>
                 <p className={styles.text__content}>However, I felt that a little more was missing... I was listening to the users, but... where did the business win? How far did each go?. I was like simba in next picture.</p>
                 <div className={styles.image}>
-                <img src="/simbameme.webp" alt="" />
+                <img src="/simba.jpg" alt="" />
                 </div>
                 <p className={styles.text__content}>Fortunately in that precise moment, a new challenge appeared, they needed to develop products from the smallest idea throughout their life cycle. This was a really WOW! I learned more about methodologies, product, business, and finally took the big picture of the matter.
                 </p>
@@ -28,7 +28,7 @@ export default function About() {
                 <div className={styles.contact}>
         <h3 className={styles.commingSoon}>
           {" "}
-          Do you want to tell me about you? <span> or just say Hey!</span>😁
+          Do you want to tell me about you? <span><br></br> or just say Hey!</span>😁
         </h3>
         <a
           href="mailto:gitmelbco@gmail.com"

@@ -193,18 +193,18 @@ width:300px;
 }
 
 .commingSoon {
-  font-size: 4rem;
+  font-size: 3rem;
   text-align: center;
   color: $dark--text;
   margin-left: auto;
   margin-right: auto;
   width:90%;
   font-weight: normal;
-  line-height:4rem;
+  line-height:3.4rem;
 
   @include lg {
-    font-size: 6rem;
-    line-height:4rem;
+    font-size: 4rem;
+    line-height:4.4rem;
   }
 
   span {
