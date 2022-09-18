@@ -119,7 +119,7 @@ justify-content:center;
     overflow-x: hidden;
     @include md {
       top: 40%;
-      right:-8%;
+      right:0%;
       height: 40vw;
       width: 40vw;
     }
@@ -142,7 +142,7 @@ justify-content:center;
 }
 
 .effect {
-  position: relative;
+  // position: relative;
   width: 50vw;
   height: 30vw;
   line-height: 30vw;

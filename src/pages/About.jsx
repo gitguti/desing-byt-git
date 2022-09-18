@@ -3,8 +3,6 @@ import styles from '../styles/About.module.scss';
 import Footer from '../components/Footer/Footer';
 import Navbar from '../components/Navbar/Navbar';
 import RRSS from '../components/RRSS/RRSS';
-import { Link } from "react-router-dom";
-
 
 
 export default function About() {
