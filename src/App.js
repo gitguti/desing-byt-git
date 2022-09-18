@@ -1,4 +1,5 @@
 import './styles/globals.scss'
+import React from 'react';
 import {HashRouter, Route, Routes} from 'react-router-dom';
 import About from './pages/About.jsx';
 import CryptoBaddies from './pages/projects/CryptoBaddies.jsx';

@@ -1,3 +1,4 @@
+import React from 'react';
 import styles from './RRSS.module.scss'
 import { FiGithub,FiLinkedin, FiAtSign, FiFile } from "react-icons/fi";
 import {Link} from 'react-router-dom';

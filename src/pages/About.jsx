@@ -1,3 +1,4 @@
+import React from 'react';
 import styles from '../styles/About.module.scss';
 import Footer from '../components/Footer/Footer';
 import Navbar from '../components/Navbar/Navbar';
@@ -33,7 +34,7 @@ export default function About() {
         <a
           href="mailto:gitmelbco@gmail.com"
           target="_blank"
-          rel="noreferrer"
+          rel="noopener noreferrer"
           className={styles.button__cta}
         >
           Keep in touch

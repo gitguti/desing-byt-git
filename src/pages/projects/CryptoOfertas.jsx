@@ -1,3 +1,4 @@
+import React from 'react';
 import styles from '../../styles/emptyProject.module.scss';
 import {Link} from 'react-router-dom';
 import Footer from '../../components/Footer/Footer';
@@ -20,7 +21,7 @@ export default function ProjectDetails() {
         </div>
         </div>
         <div>
-        <Link href="/" target="_self" rel="noreferrer" className={styles.button__light}>Back home</Link>
+        <Link to="/" target="_self" rel="noreferrer" className={styles.button__light}>Back home</Link>
         </div>
         </div>
         </div>

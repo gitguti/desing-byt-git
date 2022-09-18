@@ -1,3 +1,4 @@
+import React from 'react';
 import styles from './ProjectSection.module.scss'
 
 export default function ProjectSection(props) {

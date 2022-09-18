@@ -1,3 +1,4 @@
+import React from 'react';
 import { Link } from "react-router-dom";
 // import styles
 import styles from "../styles/Home.module.scss";
@@ -69,8 +70,9 @@ export default function Home() {
           {" "}
           Let's build <span>the next project</span> together
         </h3>
-        <a href=""  target="_blank"
-          rel="noreferrer"
+        <a href="mailto:gitmelbco@gmail.com"
+          target="_blank"
+          rel="noopener noreferrer"
           className={styles.button__cta}
         >
           Keep in touch

@@ -4,12 +4,13 @@
   "private": false,
   "homepage": ".",
   "dependencies": {
-    "node-sass": "^7.0.3",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
+    "react-icons": "^4.4.0",
+    "react-router-dom": "^6.4.0",
     "react-scripts": "3.4.0"
   },
   "scripts": {
@@ -33,8 +34,11 @@
       "last 1 safari version"
     ]
   },
-  "description": "Gitmel Gutierrez Web3 Portfolio's",
+  "description": "Gitmel Gutiérrez Web3 Portfolio's",
   "main": "index.js",
   "author": "gitguti <gitmelgtrrz1@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "sass": "^1.54.9"
+  }
 }

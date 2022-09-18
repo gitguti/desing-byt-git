@@ -1,3 +1,4 @@
+import React from 'react';
 import styles from '../../styles/Project.module.scss'
 import ProjectOverview from '../../components/ProjectOverview/ProjectOverview'
 import ProjectSection from '../../components/ProjectSection/ProjectSection'

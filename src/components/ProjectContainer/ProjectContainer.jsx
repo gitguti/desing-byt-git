@@ -1,3 +1,4 @@
+import React from 'react';
 import styles from "./ProjectContainer.module.scss";
 
 export default function CaseContainer(props) {
