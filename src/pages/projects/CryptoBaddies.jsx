@@ -12,9 +12,9 @@ export default function ProjectDetails() {
     return (
         <>
         <Navbar/>
-        <div className={styles.class}>
+        {/* <div className={styles.class}>
         <img src={project.photo} alt="dev logo"/>
-        </div>    
+        </div>     */}
         <ProjectOverview overview = {project}/>
         {project.stages.map((project, index) => (
            <ProjectSection projectDetails={project} key={index} />
