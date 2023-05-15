@@ -38,7 +38,7 @@ export default function RRSS(props) {
   <div className={styles.button}>
     <a href="https://dribbble.com/gitguti" target="_blank" rel="noreferrer" aria-label="Dribbble">
       <div className={styles.icon}>
-        <FiDribbble size={20} color={fillColor} fill={fillColor} />
+        <FiDribbble size={20} color={fillColor} />
       </div>
     </a>
   </div>
