@@ -7,86 +7,6 @@
     "phone": "+584122923204",
     "objetive": "I want to build and collaborate in the creation of solutions that connect blockchain with more people.",
     "projects": {
-      "cryptoOfertas":
-      {
-        "id": "cryptoOfertas",
-        "title": "Crypto Ofertas",
-        "shortDescription": "Crypto Ofertas, it's a plataform thinked to bring a cryptocurrency space, where the users can buy and sell services and products.",
-        "description": "",
-        "problem": "",
-        "goal": "",
-        "rolDescription": "UX Design, UI Design, Web3 Fronted Developer",
-        "toolsDescription": "Miro, Figma,Notion, Chakra UI, React.js, web3-react",
-        "timeframe": "Aug-Sept 2022",
-        "owner": "Platzi Ethereum Developer Program Final Challenge",
-        "photo": "/coverCO.png",
-        "bgColor":"#DAFAFF",
-        "open": false,
-        "stages": [
-          {
-            "stage": "EMPATHIZE",
-            "nombreDelPaso": "All starts with a little empathy",
-            "description": "I began the process identifying which will be our users and its capabilities, pains, interests and goals. Our users are beginners and this may be considered it's first approach to web3, in this order of ideas, i wanted to build it's minting process as accompanied as possible and avoid all the frustrating that perhaps could happen when we don't understand what we're doing wrong.",
-            "descriptionTwo": "Just to synthesize the previous research about our users, i created a user persona. This persona served as a continuous reminder of the characteristics of the kind of people who may use Crypto Baddies.",
-            "ul": {
-            },
-          "descriptionThree": "",
-          "photoV": "/PersonaCB2.jpg",
-          "photoH": "/PersonaCB2.jpg"
-          },
-          {
-            "stage": "DEFINE",
-            "nombreDelPaso": "The journey to Mint your first NFT",
-            "description": "Using the research findings and user persona, I was then able to chart a wireflow. The flow below shows all the possible errors that might found a beginner. I founded that to accomplish our objective the users will need to pass across three (03) stages:",
-            "descriptionTwo": "",
-            "ul": {
-              "1": "Metamask",
-              "2": "Create | connect the wallet",
-              "3": "Minting process"
-          },
-            "descriptionThree": "",
-            "photoH": "/prueba3.jpg",
-            "photoV": "/wireflowVCB.jpg"},
-          {
-            "stage": "IDEATE",
-            "nombreDelPaso": "Metamask",
-            "description": "Metamask is one of the most popular wallet on web3, but that doesn't mean that everybody knows about it. When someone is launching metamask might found three (03) typical issues",
-            "ul": {
-              "1": "Browser incompatibility",
-              "2": "Extension not installed",
-              "3": "Not logged account (even not created account)"
-          },
-          "descriptionThree": "To improve our users experience, i designed all this possible errors focused on two things: what means the error and how can our user overcome this. About the first, i choose to use a simple language, nothing that sounds like 404 error. About the last thing i decanted to link to the official documentation, i think that's good enough and truly trusted.",
-            "photoH": "/metamaskError.gif",
-            "photoV": "/metamaskError.gif"
-
-          },
-          {
-            "stage": "PROTOTYPE",
-            "nombreDelPaso": "Create | connect the wallet",
-            "description": "",
-            "descriptionTwo": "Our users has already created an account, but they could face another possibles issues",
-            "ul": {
-              "1": "Incorrect network",
-              "2": "Not funds"
-          },
-          "descriptionThree": "That's why in the frontend i request the information about the wallet that is connected, it's network and also get the balance. With this information can prevent the user like'Hey friend, you don't have any funds or is insufficient, please fund the wallet!', at the same time this avoid the unnecessary execution of the smart contract.",
-            "photoH": "/step4.png",
-            "photoV": "/step4.png"
-          },
-          {
-            "stage": "PROTOTYPE",
-            "nombreDelPaso": "My precious...Minting process",
-            "description": "Alright, our user has a wallet and it's connected to the right network, and also has some money to mint the NFT! Only left the minting process in itself, i think that every action of the user, require at least a minimal feedback, that's why i focus this last steps on what's happening and the result get us to the openSea to watch the NFT what we've made.",
-            "ul": {
-            },
-            "descriptionTwo": "Perhaps, I had learned from some courses how to integrate the frontend with smart contracts, this was my first experience designing for a web3 integration, so grateful for me. That's all!",
-          "descriptionThree": "And yep! I designed and coded the Crypto Baddies site.",
-            "photoH": "/minting.gif",
-            "photoV": "/minting.gif"
-          }
-        ]
-      },
       "cryptoBaddies":
       {
         "id": "cryptoBaddies",
@@ -229,6 +149,86 @@
           "photoV": "/featuresIDE.png",
           "photoH": "/featuresIDE.png"
 
+          }
+        ]
+      },
+      "cryptoOfertas":
+      {
+        "id": "cryptoOfertas",
+        "title": "Crypto Ofertas",
+        "shortDescription": "Crypto Ofertas, it's a plataform thinked to bring a cryptocurrency space, where the users can buy and sell services and products.",
+        "description": "",
+        "problem": "",
+        "goal": "",
+        "rolDescription": "UX Design, UI Design, Web3 Fronted Developer",
+        "toolsDescription": "Miro, Figma,Notion, Chakra UI, React.js, web3-react",
+        "timeframe": "Aug-Sept 2022",
+        "owner": "Platzi Ethereum Developer Program Final Challenge",
+        "photo": "/coverCO.png",
+        "bgColor":"#DAFAFF",
+        "open": false,
+        "stages": [
+          {
+            "stage": "EMPATHIZE",
+            "nombreDelPaso": "All starts with a little empathy",
+            "description": "I began the process identifying which will be our users and its capabilities, pains, interests and goals. Our users are beginners and this may be considered it's first approach to web3, in this order of ideas, i wanted to build it's minting process as accompanied as possible and avoid all the frustrating that perhaps could happen when we don't understand what we're doing wrong.",
+            "descriptionTwo": "Just to synthesize the previous research about our users, i created a user persona. This persona served as a continuous reminder of the characteristics of the kind of people who may use Crypto Baddies.",
+            "ul": {
+            },
+          "descriptionThree": "",
+          "photoV": "/PersonaCB2.jpg",
+          "photoH": "/PersonaCB2.jpg"
+          },
+          {
+            "stage": "DEFINE",
+            "nombreDelPaso": "The journey to Mint your first NFT",
+            "description": "Using the research findings and user persona, I was then able to chart a wireflow. The flow below shows all the possible errors that might found a beginner. I founded that to accomplish our objective the users will need to pass across three (03) stages:",
+            "descriptionTwo": "",
+            "ul": {
+              "1": "Metamask",
+              "2": "Create | connect the wallet",
+              "3": "Minting process"
+          },
+            "descriptionThree": "",
+            "photoH": "/prueba3.jpg",
+            "photoV": "/wireflowVCB.jpg"},
+          {
+            "stage": "IDEATE",
+            "nombreDelPaso": "Metamask",
+            "description": "Metamask is one of the most popular wallet on web3, but that doesn't mean that everybody knows about it. When someone is launching metamask might found three (03) typical issues",
+            "ul": {
+              "1": "Browser incompatibility",
+              "2": "Extension not installed",
+              "3": "Not logged account (even not created account)"
+          },
+          "descriptionThree": "To improve our users experience, i designed all this possible errors focused on two things: what means the error and how can our user overcome this. About the first, i choose to use a simple language, nothing that sounds like 404 error. About the last thing i decanted to link to the official documentation, i think that's good enough and truly trusted.",
+            "photoH": "/metamaskError.gif",
+            "photoV": "/metamaskError.gif"
+
+          },
+          {
+            "stage": "PROTOTYPE",
+            "nombreDelPaso": "Create | connect the wallet",
+            "description": "",
+            "descriptionTwo": "Our users has already created an account, but they could face another possibles issues",
+            "ul": {
+              "1": "Incorrect network",
+              "2": "Not funds"
+          },
+          "descriptionThree": "That's why in the frontend i request the information about the wallet that is connected, it's network and also get the balance. With this information can prevent the user like'Hey friend, you don't have any funds or is insufficient, please fund the wallet!', at the same time this avoid the unnecessary execution of the smart contract.",
+            "photoH": "/step4.png",
+            "photoV": "/step4.png"
+          },
+          {
+            "stage": "PROTOTYPE",
+            "nombreDelPaso": "My precious...Minting process",
+            "description": "Alright, our user has a wallet and it's connected to the right network, and also has some money to mint the NFT! Only left the minting process in itself, i think that every action of the user, require at least a minimal feedback, that's why i focus this last steps on what's happening and the result get us to the openSea to watch the NFT what we've made.",
+            "ul": {
+            },
+            "descriptionTwo": "Perhaps, I had learned from some courses how to integrate the frontend with smart contracts, this was my first experience designing for a web3 integration, so grateful for me. That's all!",
+          "descriptionThree": "And yep! I designed and coded the Crypto Baddies site.",
+            "photoH": "/minting.gif",
+            "photoV": "/minting.gif"
           }
         ]
       }
