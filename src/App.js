@@ -23,7 +23,6 @@ function App() {
         <Route path='projects/cryptoBaddies' element={<CryptoBaddies />}/>
         <Route path='projects/Bloombot' element={<Bloombot />}/>  
         <Route path='projects/CryptoOfertas' element={<CryptoOfertas />}/> 
-        <Route path='projects/OnSalud' element={<OnSalud />}/>  
         </Routes>
         </HashRouter>
       </header>
