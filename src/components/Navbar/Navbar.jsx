@@ -19,7 +19,7 @@ export default function Navbar(props) {
         </div>
         </div>
         <div className={styles.navbar__side}>
-        <button className={styles.menu__toggler} href="" onClick={menuToggler}>
+        <button className={styles.menu__toggler} href="" onClick={menuToggler} aria-label={!menuOpen ? "Open Menu" : "Close Menu"}>
             {!menuOpen ? (
             <FiMenu size={32} />
             ) : (
