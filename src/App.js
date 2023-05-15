@@ -7,7 +7,6 @@ import Bloombot from './pages/projects/Bloombot';
 import CryptoOfertas from './pages/projects/CryptoOfertas';
 import Home from './pages/Home.jsx';
 import ScrollToTop from './components/ScrollToTop';
-import OnSalud from './pages/projects/OnSalud.jsx';
 
 
 
