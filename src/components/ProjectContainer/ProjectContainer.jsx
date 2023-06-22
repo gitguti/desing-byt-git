@@ -10,7 +10,7 @@ export default function CaseContainer(props) {
         {/* <Image src={projectDetails.photo}  width={500} height={500} size={"100vw"}/> */}
         <img src={projectDetails.photo} alt="dev logo"/>
         </div>
-        <div className={styles.caseDescription}>
+        {/* <div className={styles.caseDescription}>
             <div className={styles.caseDescription__principal}>
               <h3 className={styles.caseDescription__principal__title}>{projectDetails.title}</h3>
               <p className={styles.caseDescription__principal__text}>{projectDetails.shortDescription}</p>
@@ -27,7 +27,7 @@ export default function CaseContainer(props) {
             <h3 className={styles.caseDescription__details__title}>Company</h3>
             <p className={styles.caseDescription__details__text}>{projectDetails.owner}</p>
             </div>
-        </div>
+        </div> */}
       </div>
       </>
     );

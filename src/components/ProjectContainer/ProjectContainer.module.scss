@@ -2,7 +2,6 @@
 
 .case__container {
     display: flex;
-    width:80%;
 }
 
 .caseImage {
@@ -20,7 +19,7 @@
     }
 
     @include lg {
-        width:80%;
+        // width:80%;
         height:600px;
     }
 }

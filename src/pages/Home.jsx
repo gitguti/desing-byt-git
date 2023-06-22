@@ -58,12 +58,13 @@ export default function Home() {
       </main>
       <section className={styles.case__container}>
         <h3 className={styles.case__container__title}>Selected projects</h3>
-        <div> {keys.id}</div>
+        <div className={styles.case__container__grid}> {keys.id}
         {keys.map((key) => (
           <Link to={"/projects/" + projects[key].id} key={projects[key].id}>
             <ProjectContainer projectDetails={projects[key]} />
           </Link>
         ))}
+        </div>
       </section>
       <div className={styles.contact}>
         <h3 className={styles.commingSoon}>
