@@ -6,6 +6,7 @@ import CryptoBaddies from './pages/projects/CryptoBaddies.jsx';
 import Bloombot from './pages/projects/Bloombot';
 import CryptoOfertas from './pages/projects/CryptoOfertas';
 import CryptoShepherd from './pages/projects/CryptoShepherd';
+import Allios from './pages/projects/Allios';
 import Home from './pages/Home.jsx';
 import ScrollToTop from './components/ScrollToTop';
 
@@ -24,6 +25,8 @@ function App() {
         <Route path='projects/Bloombot' element={<Bloombot />}/>  
         <Route path='projects/CryptoOfertas' element={<CryptoOfertas />}/> 
         <Route path='projects/CryptoShepherd' element={<CryptoShepherd />}/> 
+        <Route path='projects/Allios' element={<Allios />}/> 
+
 
         </Routes>
         </HashRouter>

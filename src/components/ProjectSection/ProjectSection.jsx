@@ -34,7 +34,7 @@ export default function ProjectSection(props) {
       <img className={styles.image__phone} src={photoV} alt="Phone Image" />
       <img className={styles.image__desktop} src={photoH} alt="Desktop Image" />
     </div>
-  ) : (
+  ) : (videoV !== null) && (
     <div className={styles.container}>
       <iframe
         loading="lazy"
