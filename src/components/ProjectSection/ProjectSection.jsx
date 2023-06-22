@@ -3,8 +3,9 @@ import styles from './ProjectSection.module.scss'
 
 export default function ProjectSection(props) {
     const {projectDetails} = props;
-    const {description, nombreDelPaso, descriptionTwo, ul, descriptionThree, photoV,photoH, stage} = projectDetails;
+    const {description, nombreDelPaso, descriptionTwo, ul, descriptionThree, photoV,photoH,videoV, stage} = projectDetails;
     console.log('stages' ,projectDetails);
+    console.log('video', videoV);
     console.log(description);
     // console.log(Object.keys(ul));
     console.log('ul es ',ul);
@@ -28,12 +29,24 @@ export default function ProjectSection(props) {
         <p className={styles.projectSection__container__text}>{descriptionThree}</p>   
         </div>
         {
-            photoV && photoH !== undefined &&         
-            <div className={styles.image}>
-                <img className={styles.image__phone} src={photoV}/>
-                <img className={styles.image__desktop} src={photoH}/>
-            </div>
-        }
+  (photoV && photoH) ? (
+    <div className={styles.image}>
+      <img className={styles.image__phone} src={photoV} alt="Phone Image" />
+      <img className={styles.image__desktop} src={photoH} alt="Desktop Image" />
+    </div>
+  ) : (
+    <div className={styles.container}>
+      <iframe
+        loading="lazy"
+        className={styles.iframe}
+        src="https://www.canva.com/design/DAFkjugshiU/watch?embed"
+        allowFullScreen
+        allow="fullscreen"
+      />
+    </div>
+  )
+}
+
         </>
     )
 }

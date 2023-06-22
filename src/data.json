@@ -11,79 +11,66 @@
       {
         "id": "CryptoShepherd",
         "title": "thecryptoshepherd.xyz",
-        "shortDescription": "Thecryptoshepherd is a cutting-edge platform currently under development that aims to enhance the security of users' assets. It achieves this by providing a secure bridge between hot and cold wallets.",
-        "description": "",
-        "problem": "",
-        "goal": "",
-        "rolDescription": "UX Design, UI Design, Web3 Fronted Developer",
-        "toolsDescription": "Miro, Figma, Notion, Chakra UI,SCSS, React.js, web3-react, framer-motion",
-        "timeframe": "Nov 2022 - Currently",
-        "owner": "Ceercle Project",
-        "photo": "/CScover.png",
-        "bgColor":"#caffbf",
-        "open": false,
+        "shortDescription": "Web based app for coding RPA tasks for devs",
+        "description": "The CryptoShepherd is a platform specifically designed to streamline and consolidate asset management in the Web3 environment. This user-friendly tool enables users to obtain a comprehensive overview of their cryptocurrency portfolio, facilitating seamless transfers between different wallets.",
+        "problem": "Initiating the use of a cold wallet can be a daunting task. The first hurdle involves activating the wallet by creating a seed phrase, which may be perplexing and overwhelming, especially for individuals who are unfamiliar with cold wallet technology. Furthermore, users are required to transfer all of their cryptocurrency assets to secure addresses, a process that is time-consuming and carries the potential risk of errors or mishaps if not executed carefully.",
+        "goal": "Build a multi-wallet and multi-network platform where users can have a centralized view of all their assets and perform operations between their own accounts.",
+        "rolDescription": "Fronted Dev, UI, UX",
+        "toolsDescription": "User Research, Figma, React, Chakra UI, web3",
+        "owner": "The Crypto Shepherd",
+        "photo": "/CSCover.png",
+        "bgColor":"#7288E0",
+        "open": true,
         "stages": [
           {
             "stage": "EMPATHIZE",
-            "nombreDelPaso": "All starts with a little empathy",
-            "description": "I began the process identifying which will be our users and its capabilities, pains, interests and goals. Our users are beginners and this may be considered it's first approach to web3, in this order of ideas, i wanted to build it's minting process as accompanied as possible and avoid all the frustrating that perhaps could happen when we don't understand what we're doing wrong.",
-            "descriptionTwo": "Just to synthesize the previous research about our users, i created a user persona. This persona served as a continuous reminder of the characteristics of the kind of people who may use Crypto Baddies.",
+            "nombreDelPaso": "Xavier arrives",
+            "description": "Understanding users motivations, concerns, and pain points, we can better address their needs and design a more user-centered platform. To validate why and how users are actually using crypto wallets, we conducted user research and to gather following insights:",
             "ul": {
+              "1": "Although all users use CEX (Centralized Exchanges) to purchase cryptocurrencies, only 14% choose to keep their cryptocurrencies on these platforms.",
+              "2": "Furthermore, it was identified that a portion of users (50%) who currently do not use cold wallets plan to do so soon due to a lack of trust in CEX.",
+              "3": "Another 25% of users do not use cold wallets because they do not know how to use them, while another 25% consider them too complicated"
             },
-          "descriptionThree": "",
-          "photoV": "/PersonaCB2.jpg",
-          "photoH": "/PersonaCB2.jpg"
+            "photoH": "/shepherdStatics.jpg",
+            "photoV": "/paintPoints.jpg"
           },
           {
             "stage": "DEFINE",
-            "nombreDelPaso": "The journey to Mint your first NFT",
-            "description": "Using the research findings and user persona, I was then able to chart a wireflow. The flow below shows all the possible errors that might found a beginner. I founded that to accomplish our objective the users will need to pass across three (03) stages:",
-            "descriptionTwo": "",
+            "nombreDelPaso": "Aligning: concepts, users, business...",
+            "description": " For the MVP purpose, we have chosen to focus on features related to asset visualization, connecting with a Metamask account, and transferring assets to a secure address. As a result, the user journey has been defined as follows:",
             "ul": {
-              "1": "Metamask",
-              "2": "Create | connect the wallet",
-              "3": "Minting process"
-          },
-            "descriptionThree": "",
-            "photoH": "/prueba3.jpg",
-            "photoV": "/wireflowVCB.jpg"},
-          {
-            "stage": "IDEATE",
-            "nombreDelPaso": "Metamask",
-            "description": "Metamask is one of the most popular wallet on web3, but that doesn't mean that everybody knows about it. When someone is launching metamask might found three (03) typical issues",
-            "ul": {
-              "1": "Browser incompatibility",
-              "2": "Extension not installed",
-              "3": "Not logged account (even not created account)"
-          },
-          "descriptionThree": "To improve our users experience, i designed all this possible errors focused on two things: what means the error and how can our user overcome this. About the first, i choose to use a simple language, nothing that sounds like 404 error. About the last thing i decanted to link to the official documentation, i think that's good enough and truly trusted.",
-            "photoH": "/metamaskError.gif",
-            "photoV": "/metamaskError.gif"
+            },
+            "photoH": "/SheperdWireflow.png",
+            "photoV": "/scopeCanvas.jpg"
 
           },
           {
             "stage": "PROTOTYPE",
-            "nombreDelPaso": "Create | connect the wallet",
-            "description": "",
-            "descriptionTwo": "Our users has already created an account, but they could face another possibles issues",
+            "nombreDelPaso": "Defining the MVP",
+            "description": "The Prototyping Stage marks an exciting phase in the design process of the The Crypto Shepherd platform. With a clear understanding of user needs and preferences, as well as defined features and functionalities, we are now ready to bring our ideas to life through prototyping.",
+            "descriptionTwo": "Through the prototyping process, we will refine our designs, validate our assumptions, and ensure that The Crypto Shepherd delivers an exceptional user experience. So, let's dive into the prototyping stage and bring the vision of The Crypto Shepherd to life!",
             "ul": {
-              "1": "Incorrect network",
-              "2": "Not funds"
+              "1": "The functions must to be builded based on full abstraction and with global scope, to allow the users to use it as Lego and communicate between them.",
+              "2": "Debugger, really may to help to understand what's going on, at least which files are falling.",
+              "3": "UI, as clean and functional as possible, its object is improve the coders work.",
+              "4": "The RPA functions to be prioritize to develope will be relates to the web and excel activities."
           },
-          "descriptionThree": "That's why in the frontend i request the information about the wallet that is connected, it's network and also get the balance. With this information can prevent the user like'Hey friend, you don't have any funds or is insufficient, please fund the wallet!', at the same time this avoid the unnecessary execution of the smart contract.",
-            "photoH": "/step4.png",
-            "photoV": "/step4.png"
+            "descriptionThree": "To sort this, i used a prioritization matrix, our axes was based on how many people used this vs. how much it's used",
+            "photoH": "/SHPEHERDPROTOTYPE.jpg",
+            "photoV": "/matrix.jpg"
           },
           {
-            "stage": "PROTOTYPE",
-            "nombreDelPaso": "My precious...Minting process",
-            "description": "Alright, our user has a wallet and it's connected to the right network, and also has some money to mint the NFT! Only left the minting process in itself, i think that every action of the user, require at least a minimal feedback, that's why i focus this last steps on what's happening and the result get us to the openSea to watch the NFT what we've made.",
+            "nombreDelPaso": "Key Learnings from the CryptoShepherd Project",
+            "description": "With the features defined and already prioritized, the interface design process was simplified. I focused on providing the most natural experience by focusing on 4 big blocks:",
             "ul": {
-            },
-            "descriptionTwo": "Perhaps, I had learned from some courses how to integrate the frontend with smart contracts, this was my first experience designing for a web3 integration, so grateful for me. That's all!",
-          "descriptionThree": "And yep! I designed and coded the Crypto Baddies site.",
-            "photoH": "/minting.gif",
-            "photoV": "/minting.gif"
+              "2": "Branding and Identity: Developing a strong and distinct branding for the CryptoShepherd was another valuable learning. Creating a memorable brand identity, including the logo, color scheme, and overall visual language, helped to establish a cohesive and recognizable image for the platform.",
+              "3": "Landing Page Design and Development: The creation of a well-designed and informative landing page was a significant achievement for the CryptoShepherd project. The landing page served as the first point of contact for potential users, providing them with an overview of the platform's features, benefits, and value proposition. ",
+              "4": "Hero Animation Tutorial: A notable contribution to the CryptoShepherd project was the creation of a tutorial explaining the hero animation. This tutorial served as a valuable resource for users and developers, guiding them through the implementation of this engaging animation on the platform.",
+              "5": "Creating Demo: One of the most enjoyable and fulfilling experiences during the CryptoShepherd project was the opportunity to create a demo video. I took on the responsibility of designing and producing the video, which allowed me to experiment with different creative elements such as music, transitions, and engaging explanations."
+
+          },
+          "videoV": "/shepherdVideo.mp4"
+
           }
         ]
       },

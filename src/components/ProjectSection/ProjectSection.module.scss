@@ -60,7 +60,7 @@
 
     @include lg {
     height:auto;
-    width:90%;
+    width:80%;
     margin-bottom: 50px;
     &__phone {
         display: none;
@@ -74,9 +74,36 @@
         width: 100%;
         object-fit: cover;
         @include lg {
-            height:600px;
+            height:auto;
+            max-height: 800px;
             object-fit: contain;
         } 
     }
 
 }
+
+.container {
+    position: relative;
+    width: 60%;
+    margin: 0 auto;
+    height: 600px;
+    padding-bottom: 0;
+    margin-top: 1.6em;
+    margin-bottom: 0.9em;
+    overflow: hidden;
+    border-radius: 8px;
+    will-change: transform;
+    margin-bottom: 100px;
+  }
+  
+  .iframe {
+    position: absolute;
+    width: 100%;
+    height: 600px;
+    top: 0;
+    left: 0;
+    border: none;
+    padding: 0;
+    margin: 0;
+  }
+  
