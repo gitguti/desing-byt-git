@@ -19,88 +19,8 @@
         "toolsDescription": "Miro, Figma, Notion, Chakra UI,SCSS, React.js, web3-react, framer-motion",
         "timeframe": "Nov 2022 - Currently",
         "owner": "Ceercle Project",
-        "photo": "/coverCS.png",
+        "photo": "/CScover.png",
         "bgColor":"#caffbf",
-        "open": false,
-        "stages": [
-          {
-            "stage": "EMPATHIZE",
-            "nombreDelPaso": "All starts with a little empathy",
-            "description": "I began the process identifying which will be our users and its capabilities, pains, interests and goals. Our users are beginners and this may be considered it's first approach to web3, in this order of ideas, i wanted to build it's minting process as accompanied as possible and avoid all the frustrating that perhaps could happen when we don't understand what we're doing wrong.",
-            "descriptionTwo": "Just to synthesize the previous research about our users, i created a user persona. This persona served as a continuous reminder of the characteristics of the kind of people who may use Crypto Baddies.",
-            "ul": {
-            },
-          "descriptionThree": "",
-          "photoV": "/PersonaCB2.jpg",
-          "photoH": "/PersonaCB2.jpg"
-          },
-          {
-            "stage": "DEFINE",
-            "nombreDelPaso": "The journey to Mint your first NFT",
-            "description": "Using the research findings and user persona, I was then able to chart a wireflow. The flow below shows all the possible errors that might found a beginner. I founded that to accomplish our objective the users will need to pass across three (03) stages:",
-            "descriptionTwo": "",
-            "ul": {
-              "1": "Metamask",
-              "2": "Create | connect the wallet",
-              "3": "Minting process"
-          },
-            "descriptionThree": "",
-            "photoH": "/prueba3.jpg",
-            "photoV": "/wireflowVCB.jpg"},
-          {
-            "stage": "IDEATE",
-            "nombreDelPaso": "Metamask",
-            "description": "Metamask is one of the most popular wallet on web3, but that doesn't mean that everybody knows about it. When someone is launching metamask might found three (03) typical issues",
-            "ul": {
-              "1": "Browser incompatibility",
-              "2": "Extension not installed",
-              "3": "Not logged account (even not created account)"
-          },
-          "descriptionThree": "To improve our users experience, i designed all this possible errors focused on two things: what means the error and how can our user overcome this. About the first, i choose to use a simple language, nothing that sounds like 404 error. About the last thing i decanted to link to the official documentation, i think that's good enough and truly trusted.",
-            "photoH": "/metamaskError.gif",
-            "photoV": "/metamaskError.gif"
-
-          },
-          {
-            "stage": "PROTOTYPE",
-            "nombreDelPaso": "Create | connect the wallet",
-            "description": "",
-            "descriptionTwo": "Our users has already created an account, but they could face another possibles issues",
-            "ul": {
-              "1": "Incorrect network",
-              "2": "Not funds"
-          },
-          "descriptionThree": "That's why in the frontend i request the information about the wallet that is connected, it's network and also get the balance. With this information can prevent the user like'Hey friend, you don't have any funds or is insufficient, please fund the wallet!', at the same time this avoid the unnecessary execution of the smart contract.",
-            "photoH": "/step4.png",
-            "photoV": "/step4.png"
-          },
-          {
-            "stage": "PROTOTYPE",
-            "nombreDelPaso": "My precious...Minting process",
-            "description": "Alright, our user has a wallet and it's connected to the right network, and also has some money to mint the NFT! Only left the minting process in itself, i think that every action of the user, require at least a minimal feedback, that's why i focus this last steps on what's happening and the result get us to the openSea to watch the NFT what we've made.",
-            "ul": {
-            },
-            "descriptionTwo": "Perhaps, I had learned from some courses how to integrate the frontend with smart contracts, this was my first experience designing for a web3 integration, so grateful for me. That's all!",
-          "descriptionThree": "And yep! I designed and coded the Crypto Baddies site.",
-            "photoH": "/minting.gif",
-            "photoV": "/minting.gif"
-          }
-        ]
-      },
-      "cryptoOfertas":
-      {
-        "id": "cryptoOfertas",
-        "title": "Crypto Ofertas",
-        "shortDescription": "Crypto Ofertas, it's a plataform thinked to bring a cryptocurrency space, where the users can buy and sell services and products.",
-        "description": "",
-        "problem": "",
-        "goal": "",
-        "rolDescription": "UX Design, UI Design, Web3 Fronted Developer",
-        "toolsDescription": "Miro, Figma,Notion, Chakra UI, React.js, web3-react",
-        "timeframe": "Aug-Sept 2022",
-        "owner": "Platzi Ethereum Developer Program Final Challenge",
-        "photo": "/coverCO.png",
-        "bgColor":"#FF595E",
         "open": false,
         "stages": [
           {
@@ -179,7 +99,7 @@
         "toolsDescription": "Miro, Figma, SCSS, NextJS, ether.js",
         "timeframe": "Aug-Sept 2022",
         "owner": "Ceercle Project",
-        "photo": "/prueba3.png",
+        "photo": "CBCover.png",
         "bgColor":"#91F0D2",
         "open": true,
         "stages": [
@@ -244,6 +164,71 @@
           "descriptionThree": "And yep! I designed and coded the Crypto Baddies site.",
             "photoH": "/minting.gif",
             "photoV": "/minting.gif"
+          }
+        ]
+      },
+      "Allios":
+      {
+        "id": "Allios",
+        "title": "Allios",
+        "shortDescription": "Web based app for coding RPA tasks for devs",
+        "description": "Bloombot was a Robotic Process Automation(RPA) integrated development environment (IDE) to build automation solutions, based on python libraries.",
+        "problem": "At the RPA industry, interfaces are usually based on functional blocks with defined functions. Generally, those who use these tools are developers, and this is not really the most natural way to code.",
+        "goal": "Build and IDE for the RPA sector that feels like coding in python.",
+        "rolDescription": "Fronted Dev, UI, UX",
+        "toolsDescription": "User Research, Scope Canvas, Figma, React, TailwindCSS",
+        "owner": "Bloomcker",
+        "photo": "/alliosCover.png",
+        "bgColor":"#7288E0",
+        "open": true,
+        "stages": [
+          {
+            "stage": "PROTOTYPE",
+            "nombreDelPaso": "Meeting the pain points",
+            "description": "To better familiarize myself with the product and industry, i conducted some market research of my own. I prepared a benchmark about features of the product competitors. Also, i prepared an informal destructured interview with two usual developers of RPA software. The objective was know the pain points and the desires of the users. I ask to the team a demo of any simple task, this helped me to understand their workflow better.",
+            "ul": {
+            },
+            "descriptionTwo": "What  i found was that the use of functional blocks involves pains like learning to use it, being restricted to the limitations of the blocks and the interfaces usually are very poor in terms of debugging.",
+            "photoH": "/paintPoints.jpg",
+            "photoV": "/paintPoints.jpg"
+          },
+          {
+            "nombreDelPaso": "Aligning: concepts, users, business...",
+            "description": " The idea was defined at a functional and business level, however, it was not possible to convey what the purpose was and focus on what specific problems they wanted to solve with the MVP features. To align business goals with the needs of our users, use the Scope Canvas. This tool allowed us to define how we would measure the success of the product and give a sense to what we wanted to build, simply, an RPA tool for devs designed for devs.",
+            "ul": {
+            },
+            "photoH": "/scopeCanvas.jpg",
+            "photoV": "/scopeCanvas.jpg"
+
+          },
+          {
+            "nombreDelPaso": "Defining the MVP",
+            "description": "The functions within the RPA tools are very varied, broad and diverse, so it was necessary to prioritize which functions would be developed for the MVP. For this point I implemented a ux session with the development team, on one side the team that was going to develop the program and in the other side, the potentials users of it.",
+            "descriptionTwo": "Initially, it was explained that the objective of the activity was to determine which would be the prioritized functionalities for the MVP, so we first needed to do an exercise: in a period of 5 minutes, write on the board what they thought were the basic functions that it should have an RPA program. Subsequently, we reviewed each of the ideas, we grouped them the most similar and understood, and then we dedicated some time to explain the not so obvious. With this we come to 5 great features:",
+            "ul": {
+              "1": "The functions must to be builded based on full abstraction and with global scope, to allow the users to use it as Lego and communicate between them.",
+              "2": "Debugger, really may to help to understand what's going on, at least which files are falling.",
+              "3": "UI, as clean and functional as possible, its object is improve the coders work.",
+              "4": "The RPA functions to be prioritize to develope will be relates to the web and excel activities."
+          },
+            "descriptionThree": "To sort this, i used a prioritization matrix, our axes was based on how many people used this vs. how much it's used",
+            "photoH": "/matrix.jpg",
+            "photoV": "/matrix.jpg"
+          },
+          {
+            "nombreDelPaso": "What everybody wantend... the UI",
+            "description": "With the features defined and already prioritized, the interface design process was simplified. I focused on providing the most natural experience by focusing on 4 big blocks:",
+            "ul": {
+              "1": "Code editor, the place where the magic happens. For a first instance, consider using line numbering and linter integration.",
+              "2": "RPA tools, here the tools related to importing prebuilt functions will coexist through abstractions based on the web and excel categories.",
+              "3": "Toolbar with three buttons for: code execution, launch the automation created and open the console.",
+              "4": "File/Dependency Browser to view automation-related files and built-in functions(dependencies) for their operation. ",
+              "5": "Console, especially needed for debugging.",
+              "descriptionThree": "This project represented a big challenge to me, initially everybody was talking about the architecture, the abstractions, the functions, but nobody was talking about the product and how it will impact the users. Wear the hat of UX and also frontend dev, allows me to lead the process to build a MVP and spread the problem to solve to the devs, first than the solution."
+          },
+          "photoV": "/featuresIDE.png",
+          "photoH": "/featuresIDE.png"
+
           }
         ]
       },

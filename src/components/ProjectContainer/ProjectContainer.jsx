@@ -6,7 +6,7 @@ export default function CaseContainer(props) {
     return (
       <>
       <div className={styles.caseContainer}>
-        <div className={styles.caseImage} style={{backgroundColor: projectDetails.bgColor}}>
+        <div className={styles.caseImage}>
         {/* <Image src={projectDetails.photo}  width={500} height={500} size={"100vw"}/> */}
         <img src={projectDetails.photo} alt="dev logo"/>
         </div>
