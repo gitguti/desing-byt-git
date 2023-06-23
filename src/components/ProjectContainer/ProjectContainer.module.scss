@@ -18,7 +18,17 @@
         object-fit: contain;
     }
 
-    @include lg {
+    @include md {
+        width:100%;
+        height:400px;
+    }
+
+    @include xl {
+        width:100%;
+        height:500px;
+    }
+
+    @include xl {
         width:100%;
         height:600px;
     }

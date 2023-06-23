@@ -32,7 +32,7 @@
               "3": "Another 25% of users do not use cold wallets because they do not know how to use them, while another 25% consider them too complicated"
             },
             "photoH": "/shepherdStatics.jpg",
-            "photoV": "/paintPoints.jpg"
+            "photoV": "/shepherdStaticsV.jpg"
           },
           {
             "stage": "DEFINE",
@@ -41,7 +41,7 @@
             "ul": {
             },
             "photoH": "/SheperdWireflow.png",
-            "photoV": "/scopeCanvas.jpg"
+            "photoV": "/SheperdWireflowH.jpg"
 
           },
           {
@@ -53,7 +53,7 @@
           },
             "descriptionThree": "To sort this, i used a prioritization matrix, our axes was based on how many people used this vs. how much it's used",
             "photoH": "/SHPEHERDPROTOTYPE.jpg",
-            "photoV": "/matrix.jpg"
+            "photoV": "/SHPEHERDPROTOTYPEH.jpg"
           },
           {
             "nombreDelPaso": "Key Learnings",
@@ -157,9 +157,9 @@
         "description": "Allios aims to centralize and enhance the streaming experience by combining social media features. With Allios, users can access a wide range of streaming services in one place while enjoying social interaction features such as sharing movies, creating and publishing personalized playlists, participating in watch parties, and more.",
         "problem": "The problem lies in users having to jump between different platforms without any kind of preference linkage. Additionally, the interaction with other users is minimal or even non-existent in some cases.",
         "goal": "To provide a seamless user experience that combines the convenience of accessing multiple streaming services in one place with integrated social features. Allios aims to facilitate content exploration, discovery, and sharing among users.",
-        "rolDescription": "Fronted Dev, UI, UX",
-        "toolsDescription": "User Research, Scope Canvas, Figma, React, TailwindCSS",
-        "owner": "Bloomcker",
+        "rolDescription": "Product Developer",
+        "toolsDescription": "User Research, Guerrilla testing, Miro, Figma",
+        "owner": "Ceercle Project",
         "photo": "/alliosCover.png",
         "timeframe": "December 2021 - February 2022",
         "bgColor":"#7288E0",
@@ -177,7 +177,7 @@
             },
             "descriptionTwo": "Additionally, through extensive research of user comments on various platforms, we gathered valuable information about users' frustrations, preferences, and desires. These additional data provide a deeper understanding of the specific needs and challenges to address in the design of Allios.",
             "photoH": "/alliosstats.jpg",
-            "photoV": "/paintPoints.jpg"
+            "photoV": "/alliosstatsV.jpg"
           },
           {
             "stage": "DEFINE",
@@ -190,7 +190,7 @@
               "4": "Watch Parties: The option to organize and join watch parties will be included, where users can watch content in real-time with their friends or community members. This feature will create a shared viewing experience and encourage real-time interaction."
             },
             "photoH": "/defineAllios.jpg",
-            "photoV": "/scopeCanvas.jpg"
+            "photoV": "/defineAllios.jpg"
 
           },
           {
@@ -200,7 +200,7 @@
             "ul": {
           },
             "photoH": "/alliosprototype.jpg",
-            "photoV": "/matrix.jpg"
+            "photoV": "/alliosprototypeV.jpg"
           },
           {
             "nombreDelPaso": "Key Learnings",
@@ -226,6 +226,7 @@
         "rolDescription": "Fronted Dev, UI, UX",
         "toolsDescription": "User Research, Scope Canvas, Figma, React, TailwindCSS",
         "owner": "Bloomcker",
+        "timeframe": "September 2022 - October 2022",
         "photo": "/bloombotCover.png",
         "bgColor":"#7288E0",
         "open": true,

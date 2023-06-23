@@ -3,12 +3,13 @@
 .main__container {
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  height: 80vh;
   width:90%;
   margin: 0 auto;
 
   @include md {
    flex-direction: row;
+   height: 100vh;
   }
 
   &__left {
@@ -68,21 +69,31 @@
   &__title {
     color: $dark--text;
     text-align: left;
-    font-size:4.5rem;
+    font-size:3rem;
     line-height:3.2rem;
     font-weight: bold;
     margin-top: 0px;
     margin-bottom: 50px;
     @include lg {
       margin-top: 200px;
+      font-size:4.5rem;
 
     }
   }
   &__grid {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  @include md {
   display: grid;
   grid-template-columns: repeat(2,1fr);
   gap: 4rem;
+  align-items: start;
   }
+  @include xl {
+    gap: 5rem
+  }
+}
 }
 
 .button__light {
