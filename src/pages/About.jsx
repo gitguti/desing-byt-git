@@ -2,11 +2,16 @@ import React from 'react';
 import styles from '../styles/About.module.scss';
 import Footer from '../components/Footer/Footer';
 import Navbar from '../components/Navbar/Navbar';
+import RRSS from "../components/RRSS/RRSS";
+import Sticky from 'react-stickynode';
 
 export default function About() {
     return (
         <>
           <Navbar/>
+          <Sticky enabled={true} top={500}>
+      <RRSS />
+      </Sticky>
         <div className={styles.grid}>
             <div className={styles.text}>
                 <h3 className={styles.text__title}>Life has a funny way of making decisions for you.</h3>

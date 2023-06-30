@@ -5,6 +5,8 @@ import ProjectSection from '../../components/ProjectSection/ProjectSection'
 import Footer from '../../components/Footer/Footer'
 import data from '../../data.json'
 import Navbar from '../../components/Navbar/Navbar'
+import RRSS from '../../components/RRSS/RRSS';
+import Sticky from 'react-stickynode';
 
 export default function ProjectDetails() {
     const project = data.data.projects.Bloombot;
@@ -12,6 +14,9 @@ export default function ProjectDetails() {
     return (
         <>
         <Navbar/>
+        <Sticky enabled={true} top={500}>
+      <RRSS />
+      </Sticky>
         {/* <div className={styles.class}>
         <img src={project.photo} alt="dev logo"/>
         </div>      */}

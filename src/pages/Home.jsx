@@ -7,6 +7,7 @@ import ProjectContainer from "../components/ProjectContainer/ProjectContainer";
 import Footer from "../components/Footer/Footer";
 import Navbar from "../components/Navbar/Navbar";
 import RRSS from "../components/RRSS/RRSS";
+import Sticky from 'react-stickynode';
 
 // load the data from JSON
 import data from "../data.json";
@@ -33,7 +34,9 @@ export default function Home() {
         <meta name="theme-color" content="#ffffff"/>
       </header>
       <Navbar />
+      <Sticky enabled={true} top={500}>
       <RRSS />
+      </Sticky>;
       <main className={styles.main__container}>
         <div className={styles.main__container__left}>
           <h1 className={styles.main__container__left__title}>
