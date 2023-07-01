@@ -23,20 +23,28 @@
     height: 800px; /* Adjust the height as needed */
     overflow: hidden;
     @include md {
-      // margin-bottom: 100px;
       margin-top: 250px;
       order:1;
-      width:60%;
+      width:85%;
+     }
+     @include lg {
+      margin-top: 250px;
+      order:1;
+      width:70%;
      }
     &__greeting {
-      font-size:5rem;
+      font-size:2rem;
       margin: 0;
       color: $dark--text;
-      position: absolute;
-      bottom: 0;
       width: 100%;
       opacity: 0;
       animation: reveal-animation 1s forwards;
+      @include md {
+        font-size:3rem;
+      }
+      @include lg {
+        font-size:5rem;
+      }
     }
     &__title {
       font-weight: bold;
@@ -45,7 +53,11 @@
       margin-top: 0px;
       margin-bottom: 4px;
       @include md {
-        font-size: 8rem;
+        font-size: 4rem;
+        margin-bottom: 10px;;
+       }
+      @include xl {
+        font-size: 7rem;
         margin-bottom: 10px;;
        }
     }
@@ -53,12 +65,16 @@
     &__subtext {
       font-weight: normal;
       color: $dark--text;
-      font-size: 2rem;
+      font-size: 1.6rem;
       margin-top: 0px;
       margin-bottom: 0px;
       animation: reveal 1s;
       @include md {
-        font-size: 5rem;
+        font-size: 3rem;
+        margin-bottom: 10px;
+      }
+      @include xl {
+        font-size: 4rem;
         margin-bottom: 10px;
       }
     }
@@ -114,7 +130,6 @@
 }
 
 .button__light {
-  padding: 1rem 1rem .8125rem;
   border-radius: .625rem;
   font-size: 1.4rem;
   line-height: 150%;
@@ -249,11 +264,11 @@ width:300px;
 @keyframes reveal-animation {
   0% {
     opacity: 0;
-    transform: translateY(-700px);
+    transform: translateX(-100px);
   }
   100% {
     opacity: 1;
-    transform: translateY(-600px);
+    transform: translateX(0px);
   }
 }
 
@@ -267,3 +282,8 @@ width:300px;
     transform: translateY(0px);
   }
 }
+
+// .sticky {
+//   top: 200;
+//   background-color: red;
+// }

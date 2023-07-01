@@ -4,11 +4,11 @@ import styles from './ProjectSection.module.scss';
 export default function ProjectSection(props) {
     const {projectDetails} = props;
     const {description, nombreDelPaso, descriptionTwo, ul, descriptionThree, photoV,photoH,videoV, stage} = projectDetails;
-    console.log('stages' ,projectDetails);
-    console.log('video', videoV);
-    console.log(description);
-    // console.log(Object.keys(ul));
-    console.log('ul es ',ul);
+    // console.log('stages' ,projectDetails);
+    // console.log('video', videoV);
+    // console.log(description);
+    // // console.log(Object.keys(ul));
+    // console.log('ul es ',ul);
     let ulKey
     if(ul!==undefined) {
         ulKey = Object.keys(ul);
@@ -31,7 +31,7 @@ export default function ProjectSection(props) {
         {
   (photoV && photoH) ? (
     <div className={styles.image}>
-      <img className={styles.image__phone} src={photoV} alt="Phone Image" />
+      <img className={styles.image__phone} src={photoV} alt=" Image" />
       <img className={styles.image__desktop} src={photoH} alt="Desktop Image" />
     </div>
   ) : (videoV !== null) && (

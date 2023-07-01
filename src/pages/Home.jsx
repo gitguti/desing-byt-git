@@ -55,25 +55,25 @@ TxtType.prototype.tick = function() {
     }, delta);
 };
 
-window.onload = function() {
-    var elements = document.getElementsByClassName('typewrite');
-    var delay = 2000; // Delay of 2 seconds (adjust as needed)
-    for (var i=0; i<elements.length; i++) {
-        var toRotate = elements[i].getAttribute('data-type');
-        var period = elements[i].getAttribute('data-period');
-        if (toRotate) {
-          setTimeout(function(element, rotate, period) {
-            new TxtType(element, JSON.parse(rotate), period);
-          }, delay * i, elements[i], toRotate, period);
-    
-        }
+document.addEventListener("DOMContentLoaded", function() {
+  var elements = document.getElementsByClassName('typewrite');
+  var delay = 2000; // Delay of 2 seconds (adjust as needed)
+  for (var i = 0; i < elements.length; i++) {
+    var toRotate = elements[i].getAttribute('data-type');
+    var period = elements[i].getAttribute('data-period');
+    if (toRotate) {
+      setTimeout(function(element, rotate, period) {
+        new TxtType(element, JSON.parse(rotate), period);
+      }, delay * i, elements[i], toRotate, period);
     }
-    // INJECT CSS
-    var css = document.createElement("style");
-    css.type = "text/css";
-    css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff; animation-delay: 4s}";
-    document.body.appendChild(css);
-}
+  }
+  // INJECT CSS
+  var css = document.createElement("style");
+  css.type = "text/css";
+  css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff; animation-delay: 4s}";
+  document.body.appendChild(css);
+});
+
 
   const information = { data };
   // console.log(information.data.data);
@@ -96,17 +96,17 @@ window.onload = function() {
         <meta name="theme-color" content="#ffffff"/>
       </header>
       <Navbar />
-      <Sticky enabled={true} top={500}>
+      <Sticky enabled={true} top={150}>
       <RRSS />
-      </Sticky>;
+      </Sticky>
       <main className={styles.main__container}>
         <div className={styles.main__container__left}>
         <h2 className={styles.main__container__left__greeting}>
             {information.data.data.greetings}
           </h2>
           <h1 className={styles.main__container__left__title}>
-          <a href="" class="typewrite" data-period="2000" data-type='[ "Gitmel Gutiérrez", "Just call me Git😉", "@gitguti everywhere", "@whynotgit on twitter"]'>
-    <span class="wrap"></span>
+          <a href="" className="typewrite" data-period="2000" data-type='[ "Gitmel Gutiérrez", "Just call me Git😉", "@gitguti everywhere", "@whynotgit on twitter"]'>
+    <span className="wrap"></span>
   </a>
   </h1>
 
@@ -116,7 +116,7 @@ window.onload = function() {
           <Link
             to="/About"
             target="_self"
-            rel="noreferrer"
+            rel="noreferrer noopener"
             className={styles.button__light}
           >
             <span>

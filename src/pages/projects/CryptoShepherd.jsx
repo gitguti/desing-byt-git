@@ -1,6 +1,4 @@
 import React from 'react';
-import styles from '../../styles/emptyProject.module.scss';
-import {Link} from 'react-router-dom';
 import ProjectOverview from '../../components/ProjectOverview/ProjectOverview'
 import ProjectSection from '../../components/ProjectSection/ProjectSection'
 import Footer from '../../components/Footer/Footer';

@@ -1,5 +1,4 @@
 import React from 'react';
-import styles from '../../styles/Project.module.scss'
 import ProjectOverview from '../../components/ProjectOverview/ProjectOverview'
 import ProjectSection from '../../components/ProjectSection/ProjectSection'
 import Footer from '../../components/Footer/Footer'
@@ -10,7 +9,6 @@ import Sticky from 'react-stickynode';
 
 export default function ProjectDetails() {
     const project = data.data.projects.cryptoBaddies;
-    console.log(project, "soy infor")
     return (
         <>
         <Navbar/>
