@@ -57,19 +57,23 @@ TxtType.prototype.tick = function() {
 
 window.onload = function() {
     var elements = document.getElementsByClassName('typewrite');
+    var delay = 2000; // Delay of 2 seconds (adjust as needed)
     for (var i=0; i<elements.length; i++) {
         var toRotate = elements[i].getAttribute('data-type');
         var period = elements[i].getAttribute('data-period');
         if (toRotate) {
-          new TxtType(elements[i], JSON.parse(toRotate), period);
+          setTimeout(function(element, rotate, period) {
+            new TxtType(element, JSON.parse(rotate), period);
+          }, delay * i, elements[i], toRotate, period);
+    
         }
     }
     // INJECT CSS
     var css = document.createElement("style");
     css.type = "text/css";
-    css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
+    css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff; animation-delay: 4s}";
     document.body.appendChild(css);
-};
+}
 
   const information = { data };
   // console.log(information.data.data);
@@ -115,7 +119,9 @@ window.onload = function() {
             rel="noreferrer"
             className={styles.button__light}
           >
+            <span>
             Know more about me
+            </span>
           </Link>
         </div>
         <div className={styles.effect}></div>
