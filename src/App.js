@@ -21,11 +21,11 @@ function App() {
         <Routes>
         <Route index element={<Home />}/>
         <Route path='/About' element={<About />}/> 
-        <Route path='projects/cryptoBaddies' element={<CryptoBaddies />}/>
-        <Route path='projects/Bloombot' element={<Bloombot />}/>  
+        <Route path='projects/:projectId' element={<CryptoBaddies />}/>
+        <Route path='projects/:projectId' element={<Bloombot />}/>  
         <Route path='projects/CryptoOfertas' element={<CryptoOfertas />}/> 
         <Route path='projects/:projectId' element={<CryptoShepherd />}/> 
-        <Route path='projects/Allios' element={<Allios />}/> 
+        <Route path='projects/:projectId' element={<Allios />}/> 
 
 
         </Routes>
