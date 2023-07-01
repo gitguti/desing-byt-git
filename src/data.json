@@ -28,7 +28,7 @@
             "nombreDelPaso": "Understanding User Motivations and Pain Points",
             "description": "To validate why and how users are actually using crypto wallets, we conducted user research thought a survey, which provided the following insights:",
             "ul": {
-              "1": "Although all users use CEX (Centralized Exchanges) to purchase cryptocurrencies, only 14% choose to keep their cryptocurrencies on these platforms.",
+              "1": "Although most of users use CEX (Centralized Exchanges) to purchase cryptocurrencies, only 14% choose to keep their cryptocurrencies on these platforms.",
               "2": "Furthermore, it was identified that a portion of users (50%) who currently do not use cold wallets plan to do so soon due to a lack of trust in CEX.",
               "3": "Another 25% of users do not use cold wallets because they do not know how to use them, while another 25% consider them too complicated"
             },
@@ -52,7 +52,6 @@
             "descriptionTwo": "Through the prototyping process, we will refine our designs, validate our assumptions, and ensure that The Crypto Shepherd delivers an exceptional user experience. So, let's dive into the prototyping stage and bring the vision of The Crypto Shepherd to life!",
             "ul": {
           },
-            "descriptionThree": "To sort this, i used a prioritization matrix, our axes was based on how many people used this vs. how much it's used",
             "photoH": "/SHPEHERDPROTOTYPE.jpg",
             "photoV": "/SHPEHERDPROTOTYPEH.jpg"
           },
@@ -62,7 +61,7 @@
             "ul": {
               "2": "Branding and Identity: Developing a strong and distinct branding for the CryptoShepherd was another valuable learning. Creating a memorable brand identity, including the logo, color scheme, and overall visual language, helped to establish a cohesive and recognizable image for the platform.",
               "3": "Landing Page Design and Development: The creation of a well-designed and informative landing page was a significant achievement for the CryptoShepherd project. The landing page served as the first point of contact for potential users, providing them with an overview of the platform's features, benefits, and value proposition. ",
-              "4": "Hero Animation Tutorial: A notable contribution to the CryptoShepherd project was the creation of a tutorial explaining the hero animation. This tutorial served as a valuable resource for users and developers, guiding them through the implementation of this engaging animation on the platform.",
+              "4": "I created an engaging animation using Framer Motion for the hero section, visualizing the concept of 'Get Save Your Coins' for the CryptoShepherd project. Currently, I am working on publishing a tutorial that will guide through the process of implementing this animation.",
               "5": "Creating Demo: One of the most enjoyable and fulfilling experiences during the CryptoShepherd project was the opportunity to create a demo video. I took on the responsibility of designing and producing the video, which allowed me to experiment with different creative elements such as music, transitions, and engaging explanations."
 
           },
@@ -81,7 +80,7 @@
         "goal": "Bring the opportunity to learn about the web3 minting its NFT access,guiding our users through each step.",
         "rolDescription": "UX designer, UI Design, Fronted Developer",
         "toolsDescription": "Miro, Figma, SCSS, NextJS, ether.js",
-        "timeframe": "Aug-Sept 2022",
+        "timeframe": "Jul-Sept 2022",
         "owner": "Ceercle Project",
         "photo": "CBCover.png",
         "bgColor":"#91F0D2",
@@ -102,7 +101,6 @@
             "stage": "DEFINE",
             "nombreDelPaso": "The journey to Mint your first NFT",
             "description": "Using the research findings and user persona, I was then able to chart a wireflow. The flow below shows all the possible errors that might found a beginner. I founded that to accomplish our objective the users will need to pass across three (03) stages:",
-            "descriptionTwo": "",
             "ul": {
               "1": "Metamask",
               "2": "Create | connect the wallet",
@@ -120,7 +118,7 @@
               "2": "Extension not installed",
               "3": "Not logged account (even not created account)"
           },
-          "descriptionThree": "To improve our users experience, i designed all this possible errors focused on two things: what means the error and how can our user overcome this. About the first, i choose to use a simple language, nothing that sounds like 404 error. About the last thing i decanted to link to the official documentation, i think that's good enough and truly trusted.",
+          "descriptionThree": "To enhance our users' experience, I designed all the possible errors with a focus on two aspects: explaining the meaning of the error and providing guidance on how users can overcome it. For the first aspect, I opted for simple language, avoiding any technical jargon like 404 error. As for the second aspect, I decided to provide links to the official documentation, which I believe is both reliable and comprehensive.",
             "photoH": "/metamaskError.gif",
             "photoV": "/metamaskError.gif"
 
@@ -134,18 +132,18 @@
               "1": "Incorrect network",
               "2": "Not funds"
           },
-          "descriptionThree": "That's why in the frontend i request the information about the wallet that is connected, it's network and also get the balance. With this information can prevent the user like'Hey friend, you don't have any funds or is insufficient, please fund the wallet!', at the same time this avoid the unnecessary execution of the smart contract.",
+          "descriptionThree": "That's why in the frontend, I request information about the connected wallet, its network, and the current balance. This helps prevent users from encountering messages like, 'Hey friend, you don't have any funds or the balance is insufficient. Please fund the wallet!' Additionally, it avoids unnecessary execution of the smart contract.",
             "photoH": "/step4.png",
             "photoV": "/step4.png"
           },
           {
             "stage": "PROTOTYPE",
             "nombreDelPaso": "My precious...Minting process",
-            "description": "Alright, our user has a wallet and it's connected to the right network, and also has some money to mint the NFT! Only left the minting process in itself, i think that every action of the user, require at least a minimal feedback, that's why i focus this last steps on what's happening and the result get us to the openSea to watch the NFT what we've made.",
+            "description": "Alright, our user has a wallet connected to the right network and has some money to mint the NFT! Only left the minting process in itself, I think that every action of the user, requires at least minimal feedback, that's why I focus this last steps on what's happening and the result gets us to the openSea to watch the NFT that we've made.",
             "ul": {
             },
-            "descriptionTwo": "Perhaps, I had learned from some courses how to integrate the frontend with smart contracts, this was my first experience designing for a web3 integration, so grateful for me. That's all!",
-          "descriptionThree": "And yep! I designed and coded the Crypto Baddies site.",
+            "descriptionTwo": "I had learned from some courses how to integrate the front end with smart contracts, but this was my first experience designing for a web3 integration, so grateful for me.",
+          "descriptionThree": "And yep! I designed and coded the Crypto Baddies site (www.cryptobadies.io).",
             "photoH": "/minting.gif",
             "photoV": "/minting.gif"
           }
@@ -169,14 +167,13 @@
           {
             "stage": "EMPATHIZE",
             "nombreDelPaso": "Gathering Insights and Perspectives",
-            "description": "During the Empathize stage, I conducted a survey to gather valuable insights. The results revealed the following findings:",
+            "description": "During the Empathize stage, I conducted a survey to gather valuable insights. Additionally, through extensive research of user comments on various platforms, we gathered valuable information about users' frustrations, preferences, and desires. The results revealed the following findings:",
             "ul": {
               "1": "Viewing Frequency: 48% of the respondents reported that they decide to watch a series whenever they have free time, especially during weekends. This indicates that streaming content is a popular and recurring activity in their leisure routine.",
               "2": "Custom Lists: 84% of the respondents expressed a strong desire to have custom lists. This suggests that users value the ability to easily organize and access their favorite or recommended content in a custom manner",
               "3": "Influence of Friends: In 55% of the cases, respondents indicated that they follow their friends' recommendations when choosing what to watch. This highlights the importance of recommendations and social influence in users' viewing decisions.",
               "4": "Sharing Preferences: 48% of the respondents expressed a desire for others to know what they are watching, as long as they can control what information is shared. This reveals an interest in social interaction and the ability to share tastes and preferences with other users."
             },
-            "descriptionTwo": "Additionally, through extensive research of user comments on various platforms, we gathered valuable information about users' frustrations, preferences, and desires. These additional data provide a deeper understanding of the specific needs and challenges to address in the design of Allios.",
             "photoH": "/alliosstats.jpg",
             "photoV": "/alliosstatsV.jpg"
           },
@@ -185,9 +182,9 @@
             "nombreDelPaso": " Shaping the Problem and Defining Solutions",
             "description": "In the Definition stage, the insights obtained in the previous phase, which indicated a strong demand for social interaction integration within the platform, were taken into consideration. Based on these findings, the following features were defined for Allios:",
             "ul": {
-              "1": "Content Sharing and Recommendations: A feature will be integrated for users to share and recommend movies, series, or playlists to other users within the platform. This will foster social interaction and allow for the discovery of new content based on friends' and followers' recommendations.",
+              "1": "Content Sharing and Recommendations: A feature will be integrated for users to share and recommend movies, series, or playlists to other users within the platform. This will foster social interaction and allow for the discovery of new content based on friends and followers recommendations.",
               "2": "Comments and Reviews: The ability to leave comments and reviews on movies, series, and other content within the platform will be enabled. Users will be able to express their opinions and share their thoughts on the content they have watched, promoting interaction and generating discussions within the community.",
-              "3": "Personalized Lists: Collaborative playlist creation will be allowed, where multiple users can add and edit the content of the list. This will encourage collaboration among users and enable the discovery of new movies and series through community-curated lists.",
+              "3": "Custom Lists: Collaborative playlist creation will be allowed, where multiple users can add and edit the content of the list. This will encourage collaboration among users and enable the discovery of new movies and series through community-curated lists.",
               "4": "Watch Parties: The option to organize and join watch parties will be included, where users can watch content in real-time with their friends or community members. This feature will create a shared viewing experience and encourage real-time interaction."
             },
             "photoH": "/defineAllios.jpg",
@@ -261,7 +258,7 @@
               "3": "UI, as clean and functional as possible, its object is improve the coders work.",
               "4": "The RPA functions to be prioritize to develope will be relates to the web and excel activities."
           },
-            "descriptionThree": "To sort this, i used a prioritization matrix, our axes was based on how many people used this vs. how much it's used",
+            "descriptionThree": "To define the functions and tasks within a specific context, we used a prioritization matrix. Our axes were based on the number of people using a particular function and how frequently it was used. With this matrix, we determined that the initial scope of task tools would focus on web and Excel automation tasks.",
             "photoH": "/matrix.jpg",
             "photoV": "/matrix.jpg"
           },
@@ -273,12 +270,18 @@
               "2": "RPA tools, here the tools related to importing prebuilt functions will coexist through abstractions based on the web and excel categories.",
               "3": "Toolbar with three buttons for: code execution, launch the automation created and open the console.",
               "4": "File/Dependency Browser to view automation-related files and built-in functions(dependencies) for their operation. ",
-              "5": "Console, especially needed for debugging.",
-              "descriptionThree": "This project represented a big challenge to me, initially everybody was talking about the architecture, the abstractions, the functions, but nobody was talking about the product and how it will impact the users. Wear the hat of UX and also frontend dev, allows me to lead the process to build a MVP and spread the problem to solve to the devs, first than the solution."
+              "5": "Console, especially needed for debugging."
           },
           "photoV": "/featuresIDE.png",
           "photoH": "/featuresIDE.png"
-
+          },{
+            "nombreDelPaso": "Key Learnings",
+            "description": "This project represented a big challenge to me, initially everybody was talking about the architecture, the abstractions, the functions, but nobody was talking about the product and how it will impact the users. Wear the hat of UX and also frontend dev, allows me to lead the process to build a MVP and spread the problem to solve to the devs, first than the solution. This was my first experience designing the product and leading a team.",
+            "ul": {
+            },
+            "photoV": "",
+            "photoH": "",
+            "videoV": null
           }
         ]
       }
