@@ -155,7 +155,7 @@
       {
         "id": "Allios",
         "title": "Allios",
-        "description": "Allios aims to centralize and enhance the streaming experience by combining social media features. With Allios, users can access a wide range of streaming services in one place while enjoying social interaction features such as sharing movies, creating and publishing personalized playlists, participating in watch parties, and more.",
+        "description": "Allios centralizes and enhances streaming by combining social media features. Users can access multiple streaming services, engage in social interaction, share movies, create playlists, join watch parties, and more.",
         "problem": "The problem lies in users having to jump between different platforms without any kind of preference linkage. Additionally, the interaction with other users is minimal or even non-existent in some cases.",
         "goal": "To provide a seamless user experience that combines the convenience of accessing multiple streaming services in one place with integrated social features. Allios aims to facilitate content exploration, discovery, and sharing among users.",
         "rolDescription": "Product Developer",
@@ -168,8 +168,8 @@
         "stages": [
           {
             "stage": "EMPATHIZE",
-            "nombreDelPaso": "Uncovering User Insights and Perspectives",
-            "description": "During the Empathize stage, we conducted a survey and conducted extensive user comment research to gather valuable insights. The results revealed the following findings:",
+            "nombreDelPaso": "Gathering Insights and Perspectives",
+            "description": "During the Empathize stage, I conducted a survey to gather valuable insights. The results revealed the following findings:",
             "ul": {
               "1": "Viewing Frequency: 48% of the respondents reported that they decide to watch a series whenever they have free time, especially during weekends. This indicates that streaming content is a popular and recurring activity in their leisure routine.",
               "2": "Custom Lists: 84% of the respondents expressed a strong desire to have custom lists. This suggests that users value the ability to easily organize and access their favorite or recommended content in a custom manner",
