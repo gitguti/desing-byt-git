@@ -19,8 +19,8 @@ export default function ProjectDetails() {
         <>
         <header>
         <SEO
-        title='Git 🐉🪷 CryptoShepherd Study case'
-        const description = "The CryptoShepherd is a platform specifically designed to streamline and consolidate asset management in the Web3 environment.."
+        title='Git 🐉🪷 Product Designer'
+        description = 'The CryptoShepherd is a platform specifically designed to streamline and consolidate asset management in the Web3 environment..'
         name='Gitmel Gutierrez'
         type='article'/>
         </header>

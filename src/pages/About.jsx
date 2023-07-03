@@ -12,7 +12,7 @@ export default function About() {
         <header>
         <SEO
         title='Git 🐉🪷 About me'
-        const description = "Welcome to my About page! I'm a frontend developer turned product designer with a passion for creating meaningful user experiences. I believe in solving real user needs through intuitive interfaces and user-centered design. I've delved into the world of UX research and discovered the power of understanding users' perspectives beyond what they say. With a growing understanding of business and product development."
+        description = "Welcome to my About page! I'm a frontend developer turned product designer with a passion for creating meaningful user experiences. I believe in solving real user needs through intuitive interfaces and user-centered design. I've delved into the world of UX research and discovered the power of understanding users' perspectives beyond what they say. With a growing understanding of business and product development."
         name='Gitmel Gutierrez'
         type='profile'/>
         </header>

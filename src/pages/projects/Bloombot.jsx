@@ -19,8 +19,8 @@ export default function ProjectDetails() {
         <>
          <header>
         <SEO
-        title='Git 🐉🪷 Bloombot Study case'
-        const description = "Bloombot was a Robotic Process Automation(RPA) integrated development environment (IDE) to build automation solutions, based on python libraries."
+        title='Git 🐉🪷 Product Designer'
+        description = "Bloombot was a Robotic Process Automation(RPA) integrated development environment (IDE) to build automation solutions, based on python libraries."
         name='Gitmel Gutierrez'
         type='article'/>
         </header>

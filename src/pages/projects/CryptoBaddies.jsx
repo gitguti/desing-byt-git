@@ -19,8 +19,8 @@ export default function ProjectDetails() {
         <>
         <header>
         <SEO
-        title='Git 🐉🪷 Crypto Baddies Study case'
-        const description = "Crypto Baddies, it's a web3 community to empower woman and no-binary through mentorship sessions, talks and project launchpad. ."
+        title='Git 🐉🪷 Product Designer'
+        description = "Crypto Baddies, it's a web3 community to empower woman and no-binary through mentorship sessions, talks and project launchpad."
         name='Gitmel Gutierrez'
         type='article'/>
         </header>

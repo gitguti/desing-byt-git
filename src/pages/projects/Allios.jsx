@@ -20,8 +20,8 @@ export default function ProjectDetails() {
         <>
         <header>
         <SEO
-        title='Git 🐉🪷  Allios Study case'
-        const description = "Allios centralizes and enhances streaming by combining social media features."
+        title='Git 🐉🪷 Product Designer'
+        description = "Allios centralizes and enhances streaming by combining social media features."
         name='Gitmel Gutierrez'
         type='article'/>
         </header>
