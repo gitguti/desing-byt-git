@@ -11,8 +11,8 @@ export default function Menu(props) {
     pathname: "/",
     state: false
   }} >Home</Link></div>
-            <div className={styles.menu__item}><Link to="/projects/Cryptoshepherd">Crypto Shepherd</Link></div>
-            <div className={styles.menu__item}><Link to="/projects/CryptoBaddies">CryptoBaddies</Link></div>
+            <div className={styles.menu__item}><Link to="/projects/CryptoShepherd">Crypto Shepherd</Link></div>
+            <div className={styles.menu__item}><Link to="/projects/cryptoBaddies">CryptoBaddies</Link></div>
             <div className={styles.menu__item}><Link to="/projects/Allios">Allios</Link></div>
             <div className={styles.menu__item}><Link to="/projects/Bloombot">Bloombot</Link></div>
             <div className={styles.menu__item}><Link to="/About">About</Link></div>

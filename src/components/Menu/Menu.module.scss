@@ -37,7 +37,7 @@
 }
 
 .side__bar .menu .menu__item {
-    color: white;
+    color: $medium--text;
     font-size: 1.6rem;
     text-decoration: none;
     display: block;
@@ -46,6 +46,6 @@
 }
 
 .side__bar .menu .menu__item a:hover {
-    color:#8621F8;
-    transition: 0.3s ease;
+    color:$light-text;
+    transition: color 1s ease;
 }

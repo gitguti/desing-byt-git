@@ -4,14 +4,22 @@ import Footer from '../components/Footer/Footer';
 import Navbar from '../components/Navbar/Navbar';
 import RRSS from "../components/RRSS/RRSS";
 import Sticky from 'react-stickynode';
+import SEO from '../components/SEO/SEO';
 
 export default function About() {
     return (
         <>
-          <Navbar/>
-          <Sticky enabled={true} top={500}>
-      <RRSS />
-      </Sticky>
+        <header>
+        <SEO
+        title='Git 🐉🪷 About me'
+        const description = "Welcome to my About page! I'm a frontend developer turned product designer with a passion for creating meaningful user experiences. I believe in solving real user needs through intuitive interfaces and user-centered design. I've delved into the world of UX research and discovered the power of understanding users' perspectives beyond what they say. With a growing understanding of business and product development."
+        name='Gitmel Gutierrez'
+        type='profile'/>
+        </header>
+        <Navbar/>
+        <Sticky enabled={true} top={500}>
+          <RRSS />
+        </Sticky>
         <div className={styles.grid}>
             <div className={styles.text}>
                 <h3 className={styles.text__title}>Life has a funny way of making decisions for you.</h3>

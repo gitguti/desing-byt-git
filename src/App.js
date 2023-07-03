@@ -9,11 +9,13 @@ import CryptoShepherd from './pages/projects/CryptoShepherd';
 import Allios from './pages/projects/Allios';
 import Home from './pages/Home.jsx';
 import ScrollToTop from './components/ScrollToTop';
+import { HelmetProvider } from 'react-helmet-async';
 
 
 
 function App() {
   return (
+    <HelmetProvider>
     <div className="App">
       <header className="App-header">
         <HashRouter>
@@ -26,12 +28,11 @@ function App() {
         <Route path='projects/CryptoOfertas' element={<CryptoOfertas />}/> 
         <Route path='projects/:projectId' element={<CryptoShepherd />}/> 
         <Route path='projects/:projectId' element={<Allios />}/> 
-
-
         </Routes>
         </HashRouter>
       </header>
     </div>
+    </HelmetProvider>
   );
 }
 

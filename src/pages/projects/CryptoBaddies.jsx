@@ -4,12 +4,10 @@ import ProjectSection from '../../components/ProjectSection/ProjectSection'
 import Footer from '../../components/Footer/Footer'
 import data from '../../data.json'
 import Navbar from '../../components/Navbar/Navbar'
-import RRSS from '../../components/RRSS/RRSS';
-import Sticky from 'react-stickynode';
 import { useParams } from 'react-router-dom';
 import { Link } from "react-router-dom";
 import styles from '../../styles/Project.module.scss';
-
+import SEO from '../../components/SEO/SEO';
 
 export default function ProjectDetails() {
   const { projectId } = useParams();
@@ -19,10 +17,14 @@ export default function ProjectDetails() {
   const filteredProjects = projects.filter((proj) => proj !== currentProjectId);
     return (
         <>
+        <header>
+        <SEO
+        title='Git 🐉🪷 Crypto Baddies Study case'
+        const description = "Crypto Baddies, it's a web3 community to empower woman and no-binary through mentorship sessions, talks and project launchpad. ."
+        name='Gitmel Gutierrez'
+        type='article'/>
+        </header>
         <Navbar/>
-        <Sticky enabled={true} top={500}>
-      <RRSS />
-      </Sticky>
         {/* <div className={styles.class}>
         <img src={project.photo} alt="dev logo"/>
         </div>     */}

@@ -4,11 +4,11 @@ import ProjectSection from '../../components/ProjectSection/ProjectSection'
 import Footer from '../../components/Footer/Footer';
 import Navbar from '../../components/Navbar/Navbar';
 import data from '../../data.json'
-import RRSS from '../../components/RRSS/RRSS';
-import Sticky from 'react-stickynode';
 import { useParams } from 'react-router-dom';
 import { Link } from "react-router-dom";
 import styles from '../../styles/Project.module.scss';
+import SEO from '../../components/SEO/SEO';
+
 
 export default function ProjectDetails() {
   const { projectId } = useParams();
@@ -18,10 +18,14 @@ export default function ProjectDetails() {
   const filteredProjects = projects.filter((proj) => proj !== currentProjectId);
       return (
         <>
+        <header>
+        <SEO
+        title='Git 🐉🪷  Allios Study case'
+        const description = "Allios centralizes and enhances streaming by combining social media features."
+        name='Gitmel Gutierrez'
+        type='article'/>
+        </header>
         <Navbar/>
-        <Sticky enabled={true} top={500}>
-      <RRSS />
-      </Sticky>
         {/* <div className={styles.class}>
         <img src={project.photo} alt="dev logo"/>
         </div>      */}
