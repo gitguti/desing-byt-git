@@ -8,6 +8,99 @@
     "phone": "+584122923204",
     "objetive": "Passionate about building through design and code. My goal is to create products that solve user needs with a delightful experience",
     "projects": {
+      "UXAI":
+      {
+        "id": "UXAI",
+        "title": "UXAI",
+        "description": "Our project automates the creation of structured UX/UI and product design case studies using AI technology. Designers can input insights through a multi-step form, and the platform generates cohesive case studies aligned with the Design Thinking framework",
+        "problem": "Writing compelling UX/UI and product design case studies is a time-consuming and challenging process for designers, hampering effective communication of design decisions and limiting career opportunities.",
+        "goal": "To provide designers with an automated platform that generates well-structured case studies based on user-provided, reducing the time-consuming of this task.",
+        "rolDescription": "Product Developer",
+        "toolsDescription": "Informal interview, research, Miro, Figma, Spline",
+        "owner": "Own project",
+        "photo": "/coverAI.png",
+        "timeframe": "Jul 2023",
+        "bgColor":"#7288E0",
+        "open": true,
+        "stages": [
+          {
+            "stage": "EMPATHIZE",
+            "nombreDelPaso": "The Challenges of Writing",
+            "description": "Writing a case study is neither an easy nor a short task. I have personally experienced it, and I've seen many others struggle with it as well. However, as Sarah Doody rightly expresses, 'When you can't articulate your design decisions, it will make your day-to-day role harder, because you won't know how to deal with pushback'. So, what exactly makes it challenging for designers to write their case studies?",
+            "ul": {
+            },
+            "descriptionTwo": "After some informal interviews with other designers, the most difficult part is synthesizing the work done in an argumentative manner to explain the design decisions and managing the narrative in an engaging way simultaneously.",
+            "descriptionThree": "Upon further reflection, mastering this skill of effective writing is closely related to our communication ability. As explicitly stated: 'Developing skill in writing is a core competency to becoming an effective communicator and to a learner's ability to make meaningful claims, interpret sources, and express a personal perspective (Graham et al., 2013).'",
+            "photoH1": "/research.jpg",
+            "photoV1": "/research.jpg",
+            "videoV":null
+          },
+          {
+            "stage": "DEFINE",
+            "nombreDelPaso": "Using AI to Streamline Case Study Creation ",
+            "description": "As a UX/UI or product designer, I need a tool that automatically generates well-structured case studies using provided insights from specific questions. This will streamline the writing process, effectively cohesive my ideas within the framework.",
+            "descriptionTwo": "Considering the immense potential of AI as a content generation tool and the increasing adoption of AI in the creative process, it becomes evident that leveraging AI more seamlessly for constructing our case studies is a natural progression. Embracing AI as a native element in this endeavor can significantly enhance our ability to communicate design decisions effectively. The following key challenges highlight the growing importance of incorporating AI in the case study creation process:",
+            "ul": {
+              "1": "Coherently organizing the abundance of ideas and data through AI-driven analysis.",
+              "2": "Crafting precise and relevant questions to extract valuable insights, with AI-guided recommendations.",
+              "3": "Fostering a dedicated platform to collaborate and refine ideas seamlessly, enabled by AI-driven collaboration features.",
+              "4": "Evidence of more and more integrating AI capabilities into popular tools like Notion, Gmail, Slack for enhanced efficiency and smooth workflow integration."
+            },
+            "descriptionThree": "This comprehensive approach capitalizes on the synergistic relationship between AI and the creative process, empowering designers to embrace AI as a valuable ally in crafting impactful and persuasive case studies.",
+            "photoH1": "/notionslackgmail.jpg",
+            "photoV1": "/notionslackgmail.jpg",
+            "videoV":null
+          },
+          {
+            "stage": "IDEATION",
+            "nombreDelPaso": "Unlock creativy to solve problems",
+            "description": "The movie 'Her' served as a profound inspiration for me, particularly in selecting the colors and look and feel of the interface.",
+            "descriptionTwo": "Here, we have brought our vision to life by creating interactive prototypes that showcase key features and functionalities. During this stage, we focused on designing the home interface, notification interactions, custom list creation, and receiving friends' recommendations.",
+            "descriptionThree": "The concept revolves around allowing users to select the design methodology they prefer. Based on their choice, they will answer a multi-step form associated with each stage of the creative process. Additionally, users can upload images, files, or videos to complement the final write-up. After completing all the questions, they will have the opportunity to preview an editable draft of a cohesive version of their ideas, while still having our AI assistant available to ask any further questions.",
+            "ul": {
+          },
+            "photoH1": "/moodboard.jpg",
+            "photoV1": "/moodboard.jpg",
+            "photoH2": "/flow.jpg",
+            "photoV2": "/flow.jpg",
+            "videoV": null
+          },
+          {
+            "stage": "PROTOTYPE",
+            "nombreDelPaso": "First approach to the UI",
+            "description": "Based on the proposed flow, I've created some screens for the prototype.",
+            "descriptionTwo": "While there are numerous functionalities I envision for the site, including making it a no-code portfolio maker with associated statistics, integration with social media, and other existing portfolios, for simplicity, I will focus on testing this initial idea first. Staring with the low fidelity wireframes, i created the design system",
+            "descriptionThree": "Finally creating the high fidelity wireframes.",
+            "ul": {
+            },
+            "photoH1": "/lowfidelity.jpg",
+            "photoV1": "/lowfidelity.jpg",
+            "photoH2": "/designsystem.jpg",
+            "photoV2": "/designsystem.jpg",
+            "photoH3": "/highfidelity.jpg",
+            "photoV3": "/highfidelity.jpg",
+            "videoV": null
+          },
+          {
+            "stage": "Evaluate",
+            "nombreDelPaso": "Next steps and key Learnings",
+            "description": "To ensure we capture valuable insights and feedback, I deployed a landing page to get all the interested users. Also, I have implemented strategies to measure the gauge the usability of our proposed solution.",
+            "ul": {
+              "1": "Prototype Usability Testing: We have conducted usability tests with real users to observe how they interact with our functional prototype. This hands-on approach allows us to identify any usability challenges, gather feedback on the user experience, and refine the design based on real-world user behavior.",
+              "2": "Feedback Collection: We encourage visitors to share their thoughts directly through a dedicated feedback form or contact email. By welcoming direct feedback, we gain valuable insights from potential users, helping us to address their specific needs and expectations."
+            },
+            "descriptionTwo": "By employing these evaluation methods, we aim to gain a comprehensive understanding of the level of interest in our project and the overall user experience. This iterative approach ensures that we continuously improve and refine our solution, making it more relevant and effective for our users.",
+            "descriptionThree": "If you are interested in being part of this project or gaining access to it, don't hesitate to subscribe!",
+            "photoH1": "flow.jpg",
+            "photoV1": "flow.jpg",
+            "photoH2": "",
+            "photoV2": "",
+            "photoH3": "",
+            "photoV3": "",
+            "videoV": null
+          }
+        ]
+      },
       "CryptoShepherd":
       {
         "id": "CryptoShepherd",
