@@ -12,11 +12,11 @@
       {
         "id": "UXAI",
         "title": "UXAI",
-        "description": "Automates the creation of structured UX/UI and product design case studies using AI technology. Designers can input insights through a multi-step form, and the platform generates cohesive case studies aligned with the Design Thinking framework",
+        "description": "UX Assistant automates the creation of structured UX/UI and product design case studies using AI technology. Designers can input insights through a multi-step form, and the platform generates cohesive case studies aligned with the UX methodologies.",
         "problem": "Writing compelling UX/UI and product design case studies is a time-consuming and challenging process for designers, hampering effective communication of design decisions and limiting career opportunities.",
         "goal": "To provide designers with an automated platform that generates well-structured case studies based on user-provided, reducing the time-consuming of this task.",
         "rolDescription": "Product Designer, UX Engineer",
-        "toolsDescription": "Informal interview, UX research, Figma, Spline",
+        "toolsDescription": "Informal interview, UX research,Typeform, Figma, Spline",
         "owner": "Own project",
         "photo": "/coverAI.png",
         "timeframe": "Jul 2023",
@@ -37,9 +37,9 @@
           },
           {
             "stage": "DEFINE",
-            "nombreDelPaso": "Using AI to Streamline Case Study Creation ",
-            "description": "THe POV is that As a UX/UI or product designer, I need a tool that help me to generates well-structured case studies using provided insights from specific questions. This will streamline the writing process, effectively cohesive my ideas within the framework.",
-            "descriptionTwo": "Considering the immense potential of AI as a content generation tool and the increasing adoption of AI in the creative process, and the evidence of more and more integrating AI capabilities into popular tools like Notion, Gmail, Slack for enhanced efficiency and smooth workflow integration. it becomes evident that leveraging AI more seamlessly for constructing our case studies is a natural progression. Embracing AI as a native element in this endeavor can significantly enhance our ability to communicate design decisions effectively. So, How can the utilization of AI enhance the process of writing UX Study Cases?",
+            "nombreDelPaso": "THe Point Of View ",
+            "description": "'As a UX/UI or product designer, I need a tool that help me to generates well-structured case studies using provided insights from specific questions. This will streamline the writing process, effectively cohesive my ideas within a framework.'",
+            "descriptionTwo": "Considering the immense potential of AI as a content generation tools and the increasing adoption of AI in the creative process, and the evidence of more and more integrating AI capabilities into popular tools like Notion, Gmail, Slack for enhanced efficiency and smooth workflow integration, it becomes evident that leveraging AI more seamlessly for constructing our case studies is a natural progression. Embracing AI as a native element in this endeavor can significantly enhance our ability to communicate design decisions effectively. So, how can the utilization of AI improve the process of writing UX Study Cases?",
             "ul": {
               "1": "Coherently organizing the abundance of ideas and data through AI-driven analysis.",
               "2": "Crafting precise and relevant questions to extract valuable insights, with AI-guided recommendations.",
@@ -88,7 +88,7 @@
               "1": "Prototype Usability Testing: conduct usability tests with real users to observe how they interact with our functional prototype. This hands-on approach allows us to identify any usability challenges, gather feedback on the user experience, and refine the design based on real-world user behavior."
             },
             "descriptionTwo": "By employing these evaluation methods, I aim to gain a comprehensive understanding of the level of interest in the project and the overall user experience. This iterative approach ensures that we continuously improve and refine our solution, making it more relevant and effective for the users.",
-            "descriptionThree": "If you are interested in being part of this project or gaining access to it, don't hesitate to subscribe!",
+            "descriptionThree": "If you are interested in being part of this project or gaining access to it, don't hesitate to subscribe and contact me!",
             "photoH1": "landing-min.jpg",
             "photoV1": "landing-min.jpg",
             "photoH2": "",
