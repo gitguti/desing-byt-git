@@ -21,7 +21,7 @@ export default function ProjectDetails() {
         <header>
         <SEO
         title='Git 🐉🪷 Product Designer'
-        description = "Allios centralizes and enhances streaming by combining social media features."
+        description = "UX Assistant automates the creation of structured UX/UI and product design case studies using AI technology"
         name='Gitmel Gutierrez'
         type='article'/>
         </header>
