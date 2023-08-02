@@ -28,13 +28,13 @@ export default function RRSS(props) {
       </div>
     </a>
   </div>
-  <div className={styles.button}>
+  {/* <div className={styles.button}>
     <a href="https://drive.google.com/file/d/1SMpnuA2vpQr_QO36k0DH-X_Q8qbhhTWP/view?usp=share_link" target="_blank" rel="noopener noreferrer" aria-label="Resume">
       <div className={styles.icon}>
         <FiFile size={20} color={fillColor} fill={fillColor} />
       </div>
     </a>
-  </div>
+  </div> */}
   <div className={styles.button}>
     <a href="https://dribbble.com/gitguti" target="_blank" rel="noopener noreferrer" aria-label="Dribbble">
       <div className={styles.icon}>
