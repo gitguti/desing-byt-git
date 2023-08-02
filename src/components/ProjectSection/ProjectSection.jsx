@@ -3,7 +3,7 @@ import styles from './ProjectSection.module.scss';
 
 export default function ProjectSection(props) {
     const {projectDetails} = props;
-    const {description, nombreDelPaso, descriptionTwo, ul, descriptionThree, photoV1,photoH1, photoV2,photoH2, photoV3, photoH3, videoV, stage} = projectDetails;
+    const {description, nombreDelPaso, descriptionTwo, ul, descriptionThree, photoV1,photoH1, photoV2,photoH2, photoV3, photoH3, videoV1, videoV2, videoV3, stage} = projectDetails;
     // console.log('stages' ,projectDetails);
     // console.log('video', videoV);
     // console.log(description);
@@ -26,7 +26,7 @@ export default function ProjectSection(props) {
       <img className={styles.image__phone} src={photoV1} alt=" Image" />
       <img className={styles.image__desktop} src={photoH1} alt="Desktop Image" />
     </div>
-  ) : (videoV !== null) && (
+  ) : (videoV1 !== null) && (
     <div className={styles.container}>
       <iframe
         loading="lazy"
@@ -47,7 +47,7 @@ export default function ProjectSection(props) {
       <img className={styles.image__phone} src={photoV2} alt=" Image" />
       <img className={styles.image__desktop} src={photoH2} alt="Desktop Image" />
     </div>
-  ) : (videoV !== null) && (
+  ) : (videoV2 !== null) && (
     <div className={styles.container}>
       <iframe
         loading="lazy"
@@ -69,7 +69,7 @@ export default function ProjectSection(props) {
       <img className={styles.image__phone} src={photoV3} alt=" Image" />
       <img className={styles.image__desktop} src={photoH3} alt="Desktop Image" />
     </div>
-  ) : (videoV !== null) && (
+  ) : (videoV3 !== null) && (
     <div className={styles.container}>
       <iframe
         loading="lazy"
